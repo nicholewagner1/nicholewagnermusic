@@ -8,3 +8,4 @@ wp-admin/*
 wp-includes/*
 wp-config.php
 wp-content/uploads/*
+.DS_Store
