@@ -1,0 +1,266 @@
+2023-12-01T05:08:26+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => bf7a0f5c67775c1dc7e601700825f0a6
+            [Date] => Dec 1, 2023 @ 5:08
+            [URL] => https://biz-api.tiktok.com/tbp/v2.0/woocommerce/webhook/product/?external_business_id=tt4b_woocommerce_65033f8d7007d
+            [Duration] => 8.94286
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.2.2 Hookshot (WordPress/6.4.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.nicholewagnermusic.com/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => mEXfhCYFcO805x9vhI1mrH11Yco7mgPduUxto6ninn8=
+                            [X-WC-Webhook-ID] => 8
+                            [X-WC-Webhook-Delivery-ID] => bf7a0f5c67775c1dc7e601700825f0a6
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 85
+                                    [x-tt-logid] => 202312010508175FB66778072012A81DFD
+                                    [x-tt-trace-host] => 014bfa9dd5d790dc11db83d9c4600b7f5848a3de28891827f3955b0c0c4a0390f3dd8023bb5c79dbe167662a2387f501befe6fac3b439a937d7a87fdfb5ce3364532ea60cda7c307a0382fc19639d1c5380b172ec77e4532eb5ea256a0e08a2bd4c3658dcb496cbfc0a1f024d11e87286f
+                                    [x-tt-trace-id] => 00-2312010508175FB66778072012A81DFD-49B92EEA6BEB2CDD-00
+                                    [server] => TLB
+                                    [x-origin-response-time] => 8025,23.48.107.14
+                                    [x-akamai-request-id] => d12c9e0a.61456d3
+                                    [expires] => Fri, 01 Dec 2023 05:08:26 GMT
+                                    [cache-control] => max-age=0, no-cache, no-store
+                                    [pragma] => no-cache
+                                    [date] => Fri, 01 Dec 2023 05:08:26 GMT
+                                    [x-cache] => TCP_MISS from a23-48-100-10.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2.1-52518411) (-)
+                                    [x-cache-remote] => TCP_MISS from a23-48-107-14.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2.1-52518411) (-)
+                                    [x-tt-trace-tag] => id=16;cdn-cache=miss;type=dyn
+                                    [server-timing] => Array
+                                        (
+                                            [0] => cdn-cache; desc=MISS, edge; dur=218, origin; dur=8025
+                                            [1] => inner; dur=8021
+                                        )
+
+                                    [x-parent-response-time] => 8243,23.48.100.10
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2023-12-01T07:18:53+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => ed7a40ffcc5c6f06b5c412e30359a247
+            [Date] => Dec 1, 2023 @ 7:18
+            [URL] => https://biz-api.tiktok.com/tbp/v2.0/woocommerce/webhook/product/?external_business_id=tt4b_woocommerce_65033f8d7007d
+            [Duration] => 3.17523
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.2.2 Hookshot (WordPress/6.4.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.nicholewagnermusic.com/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => sIdIEaZzv3O5ccd9Fm95ufu3t1B47s3Zr5EmWgd0qLM=
+                            [X-WC-Webhook-ID] => 8
+                            [X-WC-Webhook-Delivery-ID] => ed7a40ffcc5c6f06b5c412e30359a247
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 85
+                                    [x-tt-logid] => 202312010718492EFD1F36683BFCCFFBE5
+                                    [server-timing] => Array
+                                        (
+                                            [0] => inner; dur=2176
+                                            [1] => cdn-cache; desc=MISS, edge; dur=31, origin; dur=2644
+                                        )
+
+                                    [x-tt-trace-host] => 014bfa9dd5d790dc11db83d9c4600b7f58a9122ad0612da249cc5bffbd177a109830a4106cc7a3daa8f0cf42642a77eeff702757f79401c2775ff782852109817493371d7deebbb852814c64bc67060c0ac9f5423a088d3edb293c031fa89801b7
+                                    [x-tt-trace-id] => 00-2312010718492EFD1F36683BFCCFFBE5-5143092941908DBC-00
+                                    [server] => TLB
+                                    [expires] => Fri, 01 Dec 2023 07:18:53 GMT
+                                    [cache-control] => max-age=0, no-cache, no-store
+                                    [pragma] => no-cache
+                                    [date] => Fri, 01 Dec 2023 07:18:53 GMT
+                                    [x-cache] => TCP_MISS from a23-220-105-202.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2.1-52518411) (-)
+                                    [x-tt-trace-tag] => id=16;cdn-cache=miss;type=dyn
+                                    [x-origin-response-time] => 2645,23.220.105.202
+                                    [x-akamai-request-id] => 158ebdd6
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2023-12-01T11:42:52+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 419dbafa59886f7c6c4e37634be5bdbc
+            [Date] => Dec 1, 2023 @ 11:42
+            [URL] => https://biz-api.tiktok.com/tbp/v2.0/woocommerce/webhook/product/?external_business_id=tt4b_woocommerce_65033f8d7007d
+            [Duration] => 1.4848
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.2.2 Hookshot (WordPress/6.4.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.nicholewagnermusic.com/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => e7InfwJjqSqtq0qonFv4s+visW3H6xBQLNpwKbOTlkY=
+                            [X-WC-Webhook-ID] => 8
+                            [X-WC-Webhook-Delivery-ID] => 419dbafa59886f7c6c4e37634be5bdbc
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 85
+                                    [x-tt-logid] => 202312011142507C9C37608A04C94A72E0
+                                    [server-timing] => Array
+                                        (
+                                            [0] => inner; dur=142
+                                            [1] => cdn-cache; desc=MISS, edge; dur=9, origin; dur=600
+                                        )
+
+                                    [x-tt-trace-host] => 014bfa9dd5d790dc11db83d9c4600b7f58a17be0e9e4af9c153ba52307ab9e1f63ada9210f7c23e322bcd914238f913f51d25b1ba9053b813890fad8762439e056d56f31c7a72fe7148cea1089a031ee5c98ed1b4b4e4ba16f4c4ecf5dae88d4b7
+                                    [x-tt-trace-id] => 00-2312011142507C9C37608A04C94A72E0-3914712140BDE553-00
+                                    [server] => TLB
+                                    [expires] => Fri, 01 Dec 2023 11:42:52 GMT
+                                    [cache-control] => max-age=0, no-cache, no-store
+                                    [pragma] => no-cache
+                                    [date] => Fri, 01 Dec 2023 11:42:52 GMT
+                                    [x-cache] => TCP_MISS from a23-220-107-147.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2.1605-52356159) (-)
+                                    [x-tt-trace-tag] => id=16;cdn-cache=miss;type=dyn
+                                    [x-origin-response-time] => 600,23.220.107.147
+                                    [x-akamai-request-id] => f69594a
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2023-12-01T14:47:20+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => a84b5a2976cd0b6ce84e15740a17436f
+            [Date] => Dec 1, 2023 @ 14:47
+            [URL] => https://biz-api.tiktok.com/tbp/v2.0/woocommerce/webhook/product/?external_business_id=tt4b_woocommerce_65033f8d7007d
+            [Duration] => 2.35194
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.2.2 Hookshot (WordPress/6.4.1)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://www.nicholewagnermusic.com/
+                            [X-WC-Webhook-Topic] => product.updated
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => yzg5hipGZH3pNJyv7Md3TnnFK+v5LA4gn7tEsj4ycVY=
+                            [X-WC-Webhook-ID] => 8
+                            [X-WC-Webhook-Delivery-ID] => a84b5a2976cd0b6ce84e15740a17436f
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => application/json
+                                    [content-length] => 85
+                                    [x-tt-logid] => 2023120114471851CFA91A1DDAD19C652E
+                                    [server-timing] => Array
+                                        (
+                                            [0] => inner; dur=1295
+                                            [1] => cdn-cache; desc=MISS, edge; dur=1, origin; dur=1757
+                                        )
+
+                                    [x-tt-trace-host] => 014bfa9dd5d790dc11db83d9c4600b7f5896ebb15c8b6dd06c6811a3e530ab3c47857087c7a26a4379f80b73e8d735c73199147114a5d372bca61ccb81b8cc44d9aa1a65e751bd18f992c2e29db7841156d5b0fcbff05a8973cb5affc01476812a
+                                    [x-tt-trace-id] => 00-23120114471851CFA91A1DDAD19C652E-5E66FC7680819E6B-00
+                                    [server] => TLB
+                                    [expires] => Fri, 01 Dec 2023 14:47:20 GMT
+                                    [cache-control] => max-age=0, no-cache, no-store
+                                    [pragma] => no-cache
+                                    [date] => Fri, 01 Dec 2023 14:47:20 GMT
+                                    [x-cache] => TCP_MISS from a23-48-100-6.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2.1-52518411) (-)
+                                    [x-tt-trace-tag] => id=16;cdn-cache=miss;type=dyn
+                                    [x-origin-response-time] => 1757,23.48.100.6
+                                    [x-akamai-request-id] => 313f5e15
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

@@ -1,0 +1,27 @@
+/*
+ Theme Name:   Nichole Wagner Encore Child theme
+ Template:     encore
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ */
+@import url("../encore/style.css");
+
+@font-face {
+    font-family: '2peas_platf2peasplatformshoes';
+    src: url('2peasplatformshoes-5yez-webfont.woff2') format('woff2'),
+         url('2peasplatformshoes-5yez-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sunwish_maverickregular';
+    src: url('sunwishmaverickregular-webfont.woff2') format('woff2'),
+         url('sunwishmaverickregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 .site-title {font-family: 'sunwish_maverickregular' !important}

@@ -1,0 +1,2 @@
+[04-Sep-2022 01:03:17 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/blocks/archives.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/blocks/index.php on line 9
+[19-Sep-2022 04:30:33 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/blocks/archives.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/blocks/index.php on line 9

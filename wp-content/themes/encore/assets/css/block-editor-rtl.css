@@ -1,0 +1,229 @@
+/*!
+ * Theme Name: Encore
+ * Description: Used to style the block editor.
+ */
+:root {
+	font-size: 62.5%;
+}
+
+.editor-styles-wrapper {
+
+
+/**
+ * Typography
+ * -----------------------------------------------------------------------------
+ */
+
+
+/* Button Block
+------------------------------------------------------------------------------*/
+
+
+/* Separator Block
+------------------------------------------------------------------------------*/
+
+color: #555;
+	font-family: "Cousine", serif;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+.editor-styles-wrapper body {
+	color: #555;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+.editor-styles-wrapper body,
+.editor-styles-wrapper button,
+.editor-styles-wrapper input,
+.editor-styles-wrapper select,
+.editor-styles-wrapper textarea {
+	font-family: "Cousine", serif;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+	color: #333;
+	font-family: "Rajdhani", sans-serif;
+	font-weight: 500;
+	margin: 0;
+}
+
+.editor-styles-wrapper b,
+.editor-styles-wrapper strong {
+	font-weight: 700;
+}
+
+.editor-styles-wrapper dfn,
+.editor-styles-wrapper cite,
+.editor-styles-wrapper em,
+.editor-styles-wrapper i {
+	font-style: italic;
+}
+
+.editor-styles-wrapper blockquote {
+	background-color: #f7f7f7;
+	border: solid #e0e0e0;
+	border-width: 1px 0;
+	color: #777;
+	margin-bottom: 1.7em;
+	padding: 1.33333333em;
+}
+
+.editor-styles-wrapper blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+.editor-styles-wrapper blockquote cite,
+.editor-styles-wrapper blockquote small {
+	color: #555;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+
+.editor-styles-wrapper blockquote cite {
+	display: block;
+	margin-top: 0.66666667em;
+}
+
+.editor-styles-wrapper address {
+	font-style: italic;
+	margin: 0 0 1.7em;
+}
+
+.editor-styles-wrapper code,
+.editor-styles-wrapper kbd,
+.editor-styles-wrapper tt,
+.editor-styles-wrapper var,
+.editor-styles-wrapper samp,
+.editor-styles-wrapper pre {
+	font-family: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+	-webkit-hyphens: none;
+	hyphens: none;
+
+	-ms-hyphens: none;
+}
+
+.editor-styles-wrapper pre {
+	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.01);
+	border: 1px solid #e0e0e0;
+	line-height: 1.2;
+	margin-bottom: 1.7em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 0.8em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.editor-styles-wrapper abbr[title] {
+	border-bottom: 1px dotted #e0e0e0;
+	cursor: help;
+}
+
+.editor-styles-wrapper mark,
+.editor-styles-wrapper ins {
+	background-color: #fff9c0;
+	text-decoration: none;
+}
+
+.editor-styles-wrapper sup,
+.editor-styles-wrapper sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+.editor-styles-wrapper sup {
+	bottom: 1ex;
+}
+
+.editor-styles-wrapper sub {
+	top: 0.5ex;
+}
+
+.editor-styles-wrapper small {
+	font-size: 75%;
+}
+
+.editor-styles-wrapper big {
+	font-size: 125%;
+}
+
+.editor-styles-wrapper .wp-block-button .wp-block-button__link {
+	background-color: #333;
+	border: 0;
+	border-radius: 4px;
+	color: #e0e0e0;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Cousine", serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	line-height: 1.61538462;
+	margin-bottom: 0.53846154em;
+	padding: 0.46153846em 1.53846154em 0.38461538em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.editor-styles-wrapper .wp-block-button .wp-block-button__link:hover,
+.editor-styles-wrapper .wp-block-button .wp-block-button__link:focus {
+	background-color: #555;
+	color: #fff;
+	text-decoration: none;
+}
+
+.editor-styles-wrapper .wp-block-button.is-style-outline .wp-block-button__link {
+	background-color: #fff;
+	box-shadow: 0 0 0 1px #e0e0e0;
+	color: #000;
+}
+
+.editor-styles-wrapper .wp-block-button.is-style-outline .wp-block-button__link:hover,
+.editor-styles-wrapper .wp-block-button.is-style-outline .wp-block-button__link:focus {
+	background-color: #fff;
+	box-shadow: 0 0 0 1px #555;
+	color: #000;
+	opacity: 1;
+}
+
+.editor-styles-wrapper .wp-block-button.is-style-squared .wp-block-button__link {
+	border-radius: 0;
+}
+
+.editor-styles-wrapper .wp-block-separator {
+	margin-bottom: 1.7em;
+	margin-top: 1.7em;
+}
+
+.editor-styles-wrapper .editor-post-title__block .editor-post-title__input {
+	color: #333;
+	font-family: "Rajdhani", sans-serif;
+	font-size: 36px;
+	font-size: 3.6rem;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 500;
+	letter-spacing: normal;
+	line-height: 1.25;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	text-transform: none;
+	word-wrap: break-word;
+}
+
+.editor-styles-wrapper .wp-block .wp-block[data-align="full"] {
+	margin-right: 0;
+	margin-left: 0;
+}

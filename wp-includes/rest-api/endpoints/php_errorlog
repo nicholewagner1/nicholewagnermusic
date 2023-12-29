@@ -1,0 +1,8 @@
+[28-Nov-2022 10:38:07 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php on line 17
+[28-Nov-2022 10:44:33 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php on line 17

@@ -1,0 +1,31 @@
+/* Sortable Items List
+------------------------------------------------------------------------------*/
+
+.wayfarer-sortable-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.wayfarer-sortable-item {
+	background: #fff;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.wayfarer-sortable-item-title {
+	background: #fafafa;
+	border: 1px solid #dfdfdf;
+	cursor: move;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+}
+
+.wayfarer-sortable-item-title:hover {
+	border-color: #999;
+}
+
+.wayfarer-sortable-item-icon {
+	margin-right: 3px;
+}

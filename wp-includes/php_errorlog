@@ -1,0 +1,42 @@
+[03-Mar-2020 16:21:03 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php72/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/functions.php on line 8
+[03-Mar-2020 16:21:05 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php72/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/functions.php on line 8
+[03-Mar-2020 16:21:09 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php72/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/functions.php on line 8
+[03-Mar-2020 16:21:12 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php72/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/functions.php on line 8
+[03-Mar-2020 16:21:16 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php72/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/functions.php on line 8
+[03-Mar-2020 16:21:18 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php72/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/functions.php on line 8
+[03-Mar-2020 16:21:19 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php72/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/functions.php on line 8
+[03-Mar-2020 16:21:20 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php72/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/functions.php on line 8
+[03-Mar-2020 16:21:31 CST6CDT] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php72/pear') in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/functions.php on line 8
+[30-Jul-2020 15:08:30 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php on line 8
+[30-Jul-2020 15:09:00 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php on line 8
+[30-Jul-2020 15:37:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/update.php:813
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/update.php on line 813
+[31-Jul-2020 03:46:36 CST6CDT] PHP Fatal error:  Class 'IXR_Server' not found in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[31-Jul-2020 03:46:41 CST6CDT] PHP Fatal error:  Class 'IXR_Server' not found in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[31-Jul-2020 03:46:41 CST6CDT] PHP Fatal error:  Class 'IXR_Server' not found in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[31-Jul-2020 10:17:05 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php on line 8
+[31-Jul-2020 10:17:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php on line 8
+[31-Jul-2020 10:17:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/feed-atom-comments.php on line 8
+[01-Aug-2020 05:29:12 CST6CDT] PHP Fatal error:  Class 'IXR_Server' not found in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[01-Aug-2020 05:29:27 CST6CDT] PHP Fatal error:  Class 'IXR_Server' not found in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[28-Nov-2022 10:37:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/class.wp-dependencies.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/class.wp-dependencies.php on line 11

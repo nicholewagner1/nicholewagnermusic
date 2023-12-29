@@ -1,0 +1,497 @@
+/**
+ * AudioTheme (plugin)
+ * @link https://audiotheme.com/
+ * -----------------------------------------------------------------------------
+ */
+
+
+/**
+ * Content
+ * -----------------------------------------------------------------------------
+ */
+
+.archive-record .nav-links,
+.archive-video .nav-links {
+	display: flex;
+
+	justify-content: center;
+}
+
+.archive-record .nav-links .nav-next,
+.archive-video .nav-links .nav-next {
+	order: 1;
+}
+
+.archive-record .nav-links .nav-previous,
+.archive-video .nav-links .nav-previous {
+	order: 2;
+}
+
+
+/* Gig
+------------------------------------------------------------------------------*/
+
+.single-gig .entry-title {
+	margin-bottom: 0.27777778em;
+}
+
+.single-gig .entry-meta {
+	border-bottom: 1px solid #e0e0e0;
+	clear: both;
+	margin-bottom: 2.66666667em;
+	padding: 1.33333333em;
+}
+
+.single-gig .gig-location {
+	color: #555;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+
+.single-gig .venue-map-link {
+	display: none;
+}
+
+.venue-map iframe {
+	display: block;
+	margin-bottom: 0;
+}
+
+.gig-meta dl,
+.venue-meta dl,
+.gig-meta dd,
+.venue-meta dd {
+	margin-bottom: 0;
+}
+
+.gig-meta dl {
+	display: inline-block;
+	margin-left: 3.33333333em;
+}
+
+.gig-meta dd {
+	display: inline-block;
+}
+
+.gig-subscribe-ical:after {
+	content: "\2013";
+}
+
+@media screen and (min-width: 768px) {
+	.single-gig .entry-meta {
+		display: table;
+		padding-right: 2.66666667em;
+		padding-left: 2.66666667em;
+		width: 100%;
+	}
+
+	.single-gig .gig-meta,
+	.single-gig .venue-meta {
+		display: table-cell;
+		float: right;
+	}
+
+	.single-gig .venue-meta {
+		float: left;
+		text-align: left;
+	}
+}
+
+
+/* Gigs
+------------------------------------------------------------------------------*/
+
+.archive-gig {
+	margin-bottom: 1.33333333em;
+}
+
+.archive-gig .page-header {
+	margin-bottom: 2.66666667em;
+}
+
+.archive-gig .page-header > :last-child {
+	margin-bottom: 0;
+}
+
+.gig-list {
+	border-top: 1px solid #e0e0e0;
+	margin-bottom: 2.66666667em;
+}
+
+.gig-list .gig-card {
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+.page-header + .gig-list {
+	border-top-width: 0;
+}
+
+.gig-list-header {
+	border-bottom: 1px solid #e0e0e0;
+	color: #555;
+	display: none;
+	font-family: "Cousine", serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding-bottom: 0.66666667em;
+}
+
+.gig-list-header-location-sep,
+.gig-list-header-venue-sep {
+	display: none;
+}
+
+.gig-card {
+	border-bottom: 1px solid #e0e0e0;
+	display: flex;
+	min-height: 5.46666667em;
+	padding: 0.86666667em 1.33333333em 0.73333333em;
+	position: relative;
+
+	flex-flow: row wrap;
+}
+
+.gig-card:hover,
+.gig-card:focus {
+	background-color: #f7f7f7;
+}
+
+.gig-card dt,
+.gig-card dd {
+	color: #555;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.gig-card .gig-date {
+	font-weight: bold;
+}
+
+.gig-card .gig-venue,
+.gig-card .gig-title {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.gig-card dt.gig-venue,
+.gig-card .gig-title {
+	width: 100%;
+}
+
+.gig-card .gig-description {
+	font-size: 13px;
+	font-size: 1.3rem;
+	margin-top: 0.38461538em;
+}
+
+.gig-card .gig-description > :last-child {
+	margin-bottom: 0;
+}
+
+.gig-card .gig-permalink a {
+	background: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.gig-card .sep-country-name,
+.gig-card .country-name,
+.gig-card dt.gig-date {
+	display: none;
+}
+
+@media (min-width: 480px) {
+	.gig-list .gig-card {
+		min-height: 100%;
+	}
+
+	.gig-list .gig-card .gig-date {
+		font-weight: normal;
+		padding-left: 20px;
+		text-align: right;
+		width: 33%;
+
+		flex: 0 1 auto;
+	}
+
+	.gig-list .gig-card .gig-title {
+		flex: 1 0 67%;
+	}
+
+	.gig-list .gig-card .gig-title,
+	.gig-list .gig-card .gig-venue {
+		font-size: 15px;
+		font-size: 1.5rem;
+	}
+
+	.gig-list .gig-card .gig-venue,
+	.gig-list .gig-card .gig-description {
+		padding-right: 33%;
+		width: 100%;
+
+		flex: 1 0 auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.gig-list {
+		padding-right: 2.66666667em;
+		padding-left: 2.66666667em;
+	}
+
+	.gig-list-header {
+		display: flex;
+
+		flex-flow: row wrap;
+	}
+
+	.gig-list-header-date {
+		flex: 0 1 25%;
+	}
+
+	.gig-list-header-location,
+	.gig-list-header-venue {
+		flex: 1 0 37.5%;
+	}
+
+	.gig-list-header,
+	.gig-list .gig-card {
+		padding-right: 1em;
+		padding-left: 1em;
+	}
+
+	.gig-list .gig-card .gig-date {
+		width: 25%;
+
+		flex: 0 1 auto;
+		order: 1;
+	}
+
+	.gig-list .gig-card .gig-venue {
+		padding-right: 0;
+
+		flex: 1 0 37.5%;
+		order: 2;
+	}
+
+	.gig-list .gig-card .gig-title {
+		flex: 1 0 37.5%;
+		order: 3;
+	}
+
+	.gig-list .gig-card .gig-description {
+		padding-right: 25%;
+		width: 100%;
+
+		flex: 2 0 auto;
+		order: 4;
+	}
+}
+
+
+/* Record
+------------------------------------------------------------------------------*/
+
+.single-record .entry-meta > :last-child {
+	margin-bottom: 0;
+}
+
+.single-record .record-artwork img {
+	display: block;
+	width: 100%;
+}
+
+.record-meta {
+	margin: 0.66666667em 0 1.33333333em;
+}
+
+.record-meta dl {
+	display: flex;
+	margin: 0;
+
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.record-meta dd {
+	color: #777;
+	margin: 0;
+}
+
+.record-meta dd:after {
+	content: "/";
+	display: inline-block;
+	margin: 0 0.53333333em;
+}
+
+.record-meta dd:last-child:after {
+	display: none;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+	.single-record .hentry {
+		display: flex;
+
+		flex-flow: row wrap;
+	}
+
+	.single-record .entry-header {
+		width: calc(100% - 240px);
+
+		flex: 1 0 auto;
+		order: 2;
+	}
+
+	.single-record .entry-media {
+		flex: 0 1 240px;
+		order: 1;
+	}
+
+	.single-record .entry-content,
+	.single-record .tracklist-area {
+		width: 100%;
+
+		flex: 1 0 auto;
+		order: 3;
+	}
+
+	.single-record .entry-header {
+		text-align: right;
+	}
+
+	.single-record .has-post-thumbnail .entry-header {
+		margin-top: 1em;
+	}
+
+	.single-record .record-meta dl {
+		justify-content: flex-start;
+	}
+
+	.single-record .record-artwork {
+		padding: 2.66666667em;
+		padding-left: 0;
+	}
+}
+
+
+/* Tracklist
+------------------------------------------------------------------------------*/
+
+.tracklist-area audio,
+.tracklist-area .mejs-container {
+	display: none;
+}
+
+.record-tracklist {
+	border-top: 1px solid #e0e0e0;
+	counter-reset: li;
+	margin-bottom: 2.66666667em;
+	padding: 0;
+}
+
+.record-tracklist .track {
+	border-bottom: 1px solid #e0e0e0;
+	display: block;
+	margin-bottom: 0;
+	padding: 0.8em 1em;
+	position: relative;
+	transition: all 0.25s ease-in-out;
+}
+
+.record-tracklist .track:before {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #ccc;
+	content: counter(li);
+	counter-increment: li;
+	display: block;
+	float: right;
+	margin-left: 1.8em;
+	text-align: center;
+	width: 1em;
+}
+
+.record-tracklist .track-title {
+	position: relative;
+	top: 1px;
+}
+
+.record-tracklist .track-meta {
+	display: none;
+	float: left;
+	margin-left: 0.33333333em;
+}
+
+.record-tracklist .track-current-time,
+.record-tracklist .track-duration,
+.record-tracklist .track-sep-duration {
+	display: none;
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.record-tracklist .is-playable {
+	cursor: pointer;
+}
+
+.record-tracklist .is-playable:before {
+	content: "\f152";
+	font-size: 30px;
+	font-size: 3rem;
+	line-height: 1;
+	margin-right: -0.1em;
+	margin-left: 0.5em;
+	position: relative;
+	top: -0.1em;
+}
+
+.record-tracklist .is-playable .track-duration {
+	display: inline;
+}
+
+.record-tracklist .is-playing {
+	color: #333;
+}
+
+.record-tracklist .is-playing:before {
+	content: "\f151";
+}
+
+.no-touch .tracklist-area .is-playable:hover:before {
+	content: "\f152";
+	cursor: pointer;
+}
+
+.no-touch .tracklist-area .is-playing .track-current-time,
+.no-touch .tracklist-area .is-playing .track-sep-duration {
+	display: inline;
+}
+
+.no-touch .tracklist-area .is-playing:before,
+.no-touch .tracklist-area .is-playing:hover:before {
+	content: "\f151";
+}
+
+.no-touch .tracklist-area .is-playing .track-progress,
+.no-touch .tracklist-area .is-playing:hover .track-progress {
+	display: block;
+}
+
+.no-touch .tracklist-area .track-meta {
+	display: inline-block;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+	.tracklist-area {
+		padding-right: 2.66666667em;
+		padding-left: 2.66666667em;
+	}
+}

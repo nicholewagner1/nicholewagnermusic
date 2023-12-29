@@ -1,0 +1,80 @@
+2023-12-26T06:19:17+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+
+2023-12-26T06:26:42+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+
+2023-12-26T06:30:01+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+
+2023-12-26T06:30:03+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+
+2023-12-26T06:30:08+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+
+2023-12-26T06:42:40+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+
+2023-12-26T06:47:15+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+
+2023-12-26T06:49:36+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+
+2023-12-26T06:49:37+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+
+2023-12-26T06:49:38+00:00 CRITICAL Uncaught Error: Call to undefined function tribe_get_template_part() in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php:43
+Stack trace:
+#0 /home/customer/www/nicholewagnermusic.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/customer/www/nicholewagnermusic.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#2 /home/customer/www/nicholewagnermusic.com/public_html/index.php(17): require('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/nicholewagnermusic.com/public_html/wp-content/themes/wayfarer_nicholewagner/page-shows.php on line 43
+

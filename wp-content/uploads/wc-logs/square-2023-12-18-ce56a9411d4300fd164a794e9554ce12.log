@@ -1,0 +1,4186 @@
+12-17-2023 @ 18:33:58 - Starting step cycle: update_category_data
+12-17-2023 @ 18:33:58 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16809s
+
+12-17-2023 @ 18:33:58 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 00:33:58 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837351465ff10597-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-906fc740-71c0-4f19-ad1d-028269ce3045
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=g6MMl.elCFc903eo7L5og.zc5RNpJaHEmxB6Dduuapk-1702859638-1-ATszOf7jCo4naEjLUWFvSYrSi3LXEz4oZG307JtBADCSEi2Y3GbyasGbl64tZ8Ph9CXWhzR87LEphdDhlloHnJ4=; path=/; expires=Mon, 18-Dec-23 01:03:58 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 18:33:58 - Completed job step: update_category_data (Updated categories: 0)
+12-17-2023 @ 18:33:58 - Completed step cycle: update_category_data (0.19s)
+12-17-2023 @ 18:33:58 - Starting step cycle: update_product_data
+12-17-2023 @ 18:33:59 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16006s
+
+12-17-2023 @ 18:33:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 00:33:59 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8373514778df59b5-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-6f38db77-887a-4395-bfc6-2ce210d2d45a
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=zB94cHk7Lbk_VXXqCwewLBaA_HxR5WxX5hsncyX95Js-1702859639-1-AQUEdmCtFYLYifgDHgU/z4Xtefo0sS510mWM6nKW8U/QPmu8zIFQjCXvsog5h3T4+NbJ36g7SPZF9Bt03PQ2++g=; path=/; expires=Mon, 18-Dec-23 01:03:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 18:33:59 - Completed job step: update_product_data (Updated products: 0)
+12-17-2023 @ 18:33:59 - Completed step cycle: update_product_data (0.16s)
+12-17-2023 @ 18:33:59 - Starting step cycle: update_inventory_tracking
+12-17-2023 @ 18:33:59 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15562s
+
+12-17-2023 @ 18:33:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 00:33:59 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837351489a0582d2-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-55841275-4e66-4054-a2ac-516ce3339488
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=DQlG7JaP7UUx5_ebZoO0O7qVpJm9D7ND22yfti9KMwM-1702859639-1-AaiheJ2fq+FINUsiuH+cTWvRB61AjDdEVQZrSw9QXyYCmsIODQ1nCc2d7B5HOFROBD2OReV6Uc0w5BayrZzph90=; path=/; expires=Mon, 18-Dec-23 01:03:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 18:33:59 - Completed job step: update_inventory_tracking
+12-17-2023 @ 18:33:59 - Completed step cycle: update_inventory_tracking (0.16s)
+12-17-2023 @ 18:33:59 - Starting step cycle: update_inventory_counts
+12-17-2023 @ 18:33:59 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16249s
+
+12-17-2023 @ 18:33:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 00:33:59 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 83735149ab373b41-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-a785c3b3-fb2e-488c-947d-74a43f2d4643
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=5MFXxlky4sfmcEIgbjYCj9oTJ4HC5.3.9Qs7x4MJJ14-1702859639-1-AWLDUtM87BI06DSIJYFdhfaF88OwSJurkrI4ZbyDUILFXwQuG2FyfwmnkoK6aoefsS3Q94LkwIi1Nti3Z55fI+8=; path=/; expires=Mon, 18-Dec-23 01:03:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-17-2023 @ 18:33:59 - Completed job step: update_inventory_counts (Synced products: 0)
+12-17-2023 @ 18:33:59 - Completed step cycle: update_inventory_counts (0.17s)
+12-17-2023 @ 19:33:59 - Starting step cycle: update_category_data
+12-17-2023 @ 19:33:59 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16809s
+
+12-17-2023 @ 19:33:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 01:33:59 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8373a92dddbe6fc1-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-5e9c4ef5-2899-49af-8cf5-aa3cd4f33795
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=OLfu3qN9a_Ngh71VgSGhZdnF_qM5CZeVFggds4bU9fI-1702863239-1-AbhceizBJK9f9o4XGk23A3GYMcLCn5VyoWhMCZox9eneE7Xuq0UV02V6KaO84gqNKob5yJIZalDLjQrae8msDeo=; path=/; expires=Mon, 18-Dec-23 02:03:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 19:33:59 - Completed job step: update_category_data (Updated categories: 0)
+12-17-2023 @ 19:33:59 - Completed step cycle: update_category_data (0.19s)
+12-17-2023 @ 19:33:59 - Starting step cycle: update_product_data
+12-17-2023 @ 19:33:59 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15585s
+
+12-17-2023 @ 19:33:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 01:33:59 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8373a92eebba9c85-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-8a8dab46-6e95-40e5-ad5b-d02ef6cbfad4
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=BzYvAZIkcrettHlek4WgCvnUCTl1x.AF3LyduC3.OX4-1702863239-1-AUuF9Hj+KsVBmOaOwe+FjjEKpPaowOt7UvPNXN/XFMowIOhSSpohxYlYupNLJQ5nIB3zDqdZDwC+X5k3ok8wp/s=; path=/; expires=Mon, 18-Dec-23 02:03:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 19:33:59 - Completed job step: update_product_data (Updated products: 0)
+12-17-2023 @ 19:33:59 - Completed step cycle: update_product_data (0.16s)
+12-17-2023 @ 19:33:59 - Starting step cycle: update_inventory_tracking
+12-17-2023 @ 19:33:59 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15715s
+
+12-17-2023 @ 19:33:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 01:33:59 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8373a930098a07d0-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-87cd824b-31e7-4a55-9953-963d6a24c825
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=2tLC2TWYHRZnBS9p0QRf3V_OSIpQorMYsA34QQaOqno-1702863239-1-AeQZr+wJahlEb4Y7fyi1Z5acnb/9UG08IODpbBqkmVdT0BwD45C1tpIOPvMj2eVh3HNzbKdqcpjHTD4NezJa1xo=; path=/; expires=Mon, 18-Dec-23 02:03:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 19:33:59 - Completed job step: update_inventory_tracking
+12-17-2023 @ 19:33:59 - Completed step cycle: update_inventory_tracking (0.16s)
+12-17-2023 @ 19:33:59 - Starting step cycle: update_inventory_counts
+12-17-2023 @ 19:34:00 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.18023s
+
+12-17-2023 @ 19:34:00 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 01:34:00 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8373a93119482d1c-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-ff9481a5-053b-45ab-bae8-94b8392f8683
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=KBAgb86hbZfrCc8ll4wyrfZpI6g1xf9WU1aewfBjpXM-1702863240-1-AQ6bnEovFNOdgcVTAJKTShre45VhkdWaKm9EFa3aSdB5b7mHJ3+P/gcu4iUnXmCjLJYjRAe5ygCInVDIzJy1k7w=; path=/; expires=Mon, 18-Dec-23 02:04:00 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-17-2023 @ 19:34:00 - Completed job step: update_inventory_counts (Synced products: 0)
+12-17-2023 @ 19:34:00 - Completed step cycle: update_inventory_counts (0.19s)
+12-17-2023 @ 20:34:49 - Starting step cycle: update_category_data
+12-17-2023 @ 20:34:50 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17873s
+
+12-17-2023 @ 20:34:50 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 02:34:50 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8374024e3a8913c7-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-5f9685b5-982d-479c-87f9-44e922850130
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=Ev0hA24yc69pVViUCaqe1sg2Z9Vm1qHYy90vL7E.LXQ-1702866890-1-AXXQ58VkWZ4bbDJag3muKDBRENpuyuXxuB2DfxhZA0mw00qPk+EL4Z/Hz583IMlrLo3SgvsXLPSh/dFfblrxnmI=; path=/; expires=Mon, 18-Dec-23 03:04:50 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 20:34:50 - Completed job step: update_category_data (Updated categories: 0)
+12-17-2023 @ 20:34:50 - Completed step cycle: update_category_data (0.21s)
+12-17-2023 @ 20:34:50 - Starting step cycle: update_product_data
+12-17-2023 @ 20:34:50 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16215s
+
+12-17-2023 @ 20:34:50 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 02:34:50 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8374024f5f9f0a95-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-bd49ead2-9e02-4b7f-ba74-262c9cf3068d
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=HoKDbqso51xlfAtzQzcnsW7dRELdcCuupYnfHDP9WEA-1702866890-1-AZQjcdaDHJ75UJeGP3VLXRM7hV/vrZaSqLlQ96rzCNoSp8zDcgZyxqT2WrNJwiURkdPeyoLscB1g2oEvSLkxXXU=; path=/; expires=Mon, 18-Dec-23 03:04:50 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 20:34:50 - Completed job step: update_product_data (Updated products: 0)
+12-17-2023 @ 20:34:50 - Completed step cycle: update_product_data (0.17s)
+12-17-2023 @ 20:34:50 - Starting step cycle: update_inventory_tracking
+12-17-2023 @ 20:34:50 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17637s
+
+12-17-2023 @ 20:34:50 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 02:34:50 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837402506d133b4e-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-b72900fe-1d08-411d-9193-b95079ab8f40
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=qGBzOylTKlk0F7VaGaDg7EFBQHk87MAqGK99.sEP6DQ-1702866890-1-AZQts5qa7z0qkbBbZvWTrMK+AEz3zzV4GHds1WjfTxHK/6ueYSyTVfvappvo3RYT8BRIcjDU/8LqDScT2ypjOAg=; path=/; expires=Mon, 18-Dec-23 03:04:50 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 20:34:50 - Completed job step: update_inventory_tracking
+12-17-2023 @ 20:34:50 - Completed step cycle: update_inventory_tracking (0.18s)
+12-17-2023 @ 20:34:50 - Starting step cycle: update_inventory_counts
+12-17-2023 @ 20:34:50 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16237s
+
+12-17-2023 @ 20:34:50 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 02:34:50 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 83740251ce6e3b11-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-df30822c-2d2d-414a-9ccb-a979b13daee7
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=ypl6RvlhQNhEiG39EY7yXtM5oVz.UyNOrwCOEMPjHpk-1702866890-1-Ae/+7u1/hGEQ9DZBbx15ExdzbOd4r+x6SLgCmZXUMa/7HIt3TL2ayAhs+IEbogKi3rGBL9pw0tbBNofOW43oJpg=; path=/; expires=Mon, 18-Dec-23 03:04:50 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-17-2023 @ 20:34:50 - Completed job step: update_inventory_counts (Synced products: 0)
+12-17-2023 @ 20:34:50 - Completed step cycle: update_inventory_counts (0.17s)
+12-17-2023 @ 21:39:01 - Starting step cycle: update_category_data
+12-17-2023 @ 21:39:01 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.18436s
+
+12-17-2023 @ 21:39:01 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 03:39:01 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83746053cd440583-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-ca8cc6c4-8a3f-4655-aadf-fd8f56bd5b6b
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=htVd9rIziLC9fdU2V.uVAGbeo2DsOtGJFg5iG5sfUA0-1702870741-1-Ab7dPHlPTOq0WqJRKUBKEeJaUDed1uLCcy4CueLWojQIqz1UMTK+e7K8MH9whhueUApo7ccLzK4kxc94IS69GN4=; path=/; expires=Mon, 18-Dec-23 04:09:01 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 21:39:01 - Completed job step: update_category_data (Updated categories: 0)
+12-17-2023 @ 21:39:01 - Completed step cycle: update_category_data (0.19s)
+12-17-2023 @ 21:39:01 - Starting step cycle: update_product_data
+12-17-2023 @ 21:39:01 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.14333s
+
+12-17-2023 @ 21:39:01 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 03:39:01 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837460550f3159b6-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-78f23693-f9fd-4241-ae49-c723cf364833
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=EsNgE6ngkZS056shTjjy.RGeo1pGNn1.C7Og3crzGko-1702870741-1-ASynQfnARKln7VaODlJnTDvd1KV63KoBgJNYH+4xz74/57hYDZ0j9P43zjxW2HD0cyBzzeDk/IsEBvA+AbBYPJE=; path=/; expires=Mon, 18-Dec-23 04:09:01 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 21:39:01 - Completed job step: update_product_data (Updated products: 0)
+12-17-2023 @ 21:39:01 - Completed step cycle: update_product_data (0.15s)
+12-17-2023 @ 21:39:01 - Starting step cycle: update_inventory_tracking
+12-17-2023 @ 21:39:01 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15006s
+
+12-17-2023 @ 21:39:01 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 03:39:01 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837460560d3f0aa9-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-0ef8dbda-b0f8-4062-b5c0-9c9f1eb48eaa
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=fvNdDSHpcSJkzVGEeN4ajrVDYyG2_31hDwugIjNbmJc-1702870741-1-Accb5/apIcl2r4XzOHwtghwbLSxzr1pG/Yz5aiAWPXfPHw5jZJsghguUwevZMN47KUCQUzEH43TWgqOquoj9FbU=; path=/; expires=Mon, 18-Dec-23 04:09:01 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 21:39:01 - Completed job step: update_inventory_tracking
+12-17-2023 @ 21:39:01 - Completed step cycle: update_inventory_tracking (0.15s)
+12-17-2023 @ 21:39:01 - Starting step cycle: update_inventory_counts
+12-17-2023 @ 21:39:01 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.20813s
+
+12-17-2023 @ 21:39:01 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 03:39:01 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 837460572fd43926-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-1e04699b-8aff-4da5-a9f0-7c690af2b15c
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=G5lZ_VGMU0ldOiKx2Q55.Bm0aXUChQeon9OQmsjqT00-1702870741-1-AQ1Zi8C4njUj+noKKShGNIerqOMXvRSv+BZFQcCTNvQvspA3Y98/vXpiziL5l7epVPm/HX7Qk4W94F5OAgxdXPA=; path=/; expires=Mon, 18-Dec-23 04:09:01 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-17-2023 @ 21:39:01 - Completed job step: update_inventory_counts (Synced products: 0)
+12-17-2023 @ 21:39:01 - Completed step cycle: update_inventory_counts (0.21s)
+12-17-2023 @ 22:43:19 - Starting step cycle: update_category_data
+12-17-2023 @ 22:43:19 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16478s
+
+12-17-2023 @ 22:43:19 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 04:43:19 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8374be8749da07e9-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-18e96dd1-3154-4ed6-9288-00491f67d0c1
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=nI0Qy7U7iAMWesuAJLet77z8dv0xIbrBygLS9t0vYt8-1702874599-1-Abs1SNJtFrY5jsSoUTybDByv6SbAx4lngOkB6/cfmywLN0nMqiYpc7ruKaj5bESpz7qejT78jH40TI5eHjKgUXM=; path=/; expires=Mon, 18-Dec-23 05:13:19 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 22:43:19 - Completed job step: update_category_data (Updated categories: 0)
+12-17-2023 @ 22:43:19 - Completed step cycle: update_category_data (0.19s)
+12-17-2023 @ 22:43:19 - Starting step cycle: update_product_data
+12-17-2023 @ 22:43:19 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.14746s
+
+12-17-2023 @ 22:43:19 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 04:43:19 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8374be886b6b082b-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-e6390de0-c74c-4f41-9347-6fcdb5ae7b48
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=Ud15l7pa3SiIS0C90a3JxxVZ3ap40mHKR7J5n3fTboo-1702874599-1-AeJMDbWWs2BylgyUcLpg0JSZuHEjDrztVwn5E4szcGP7aaYAtZ5+UTEkm+H/xfQ6F9/MLJeUlh2o8cJhqdlSqlU=; path=/; expires=Mon, 18-Dec-23 05:13:19 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 22:43:19 - Completed job step: update_product_data (Updated products: 0)
+12-17-2023 @ 22:43:19 - Completed step cycle: update_product_data (0.15s)
+12-17-2023 @ 22:43:19 - Starting step cycle: update_inventory_tracking
+12-17-2023 @ 22:43:20 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16295s
+
+12-17-2023 @ 22:43:20 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 04:43:20 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8374be896af10a05-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-63b982ca-a0a3-4183-a786-72fba26a83c4
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=aeYSd05Yyw9RjWfbki2BfzKyhyQd6UJv8UmJV8ylS2g-1702874600-1-AfX/Wlm5QeSJ0kKSoOgkQE4o5kw6kVFKaT7QJ+q3lDvkInthKWHTQsB0uZTWdKpyKX1kelAESIetYVZ2OM0BAss=; path=/; expires=Mon, 18-Dec-23 05:13:20 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 22:43:20 - Completed job step: update_inventory_tracking
+12-17-2023 @ 22:43:20 - Completed step cycle: update_inventory_tracking (0.17s)
+12-17-2023 @ 22:43:20 - Starting step cycle: update_inventory_counts
+12-17-2023 @ 22:43:20 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15073s
+
+12-17-2023 @ 22:43:20 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 04:43:20 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8374be8a8890824a-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-e2d7ea68-d38f-4360-a01c-3c486bb5788d
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=G1MCAjTMZ7wBd2hQUOE15_LMCPTnydNKCdWwJfBWs2o-1702874600-1-AR03IAb495rmQLuOcXyJI66vbZtOQEp21AYsYEWIgUpIyd6sHuY/3gYLw2vP4ABBIi3bA4jh9vUGtJB6WignXbY=; path=/; expires=Mon, 18-Dec-23 05:13:20 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-17-2023 @ 22:43:20 - Completed job step: update_inventory_counts (Synced products: 0)
+12-17-2023 @ 22:43:20 - Completed step cycle: update_inventory_counts (0.16s)
+12-17-2023 @ 23:43:57 - Starting step cycle: update_category_data
+12-17-2023 @ 23:43:58 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.18342s
+
+12-17-2023 @ 23:43:58 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 05:43:58 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8375175abf948233-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-1dc7ec13-d3fc-4297-a477-261f5435d8e6
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=Eaym9617hzY06wNmQ9ZPHa8cXX5HQ0TrOFh4TBcrxWM-1702878238-1-ARnjxhKtRfM3uo2TApS4l9HVUvh9APKVO1yMCEtqQmJB9nSKr7MOa7hUhDL3XuZqW0Vocj1zYEtOH+mT4qWIY8E=; path=/; expires=Mon, 18-Dec-23 06:13:58 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 23:43:58 - Completed job step: update_category_data (Updated categories: 0)
+12-17-2023 @ 23:43:58 - Completed step cycle: update_category_data (0.21s)
+12-17-2023 @ 23:43:58 - Starting step cycle: update_product_data
+12-17-2023 @ 23:43:58 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.14514s
+
+12-17-2023 @ 23:43:58 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 05:43:58 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8375175bdf8d2415-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-8cf9626a-a91b-41ea-9c1b-f90b55c68284
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=TCPr5.9RIHqpHiXuMJUgw592OtRz_rH0SZ_XrB3gwdc-1702878238-1-AaMbLbV4ytgedZw3h7zcTpi7qdH1ndTEreB7xxLMAYM4C28MMlrBZMiV88pR09mSyrb8bFvDAWAcDAyvVZvW1zQ=; path=/; expires=Mon, 18-Dec-23 06:13:58 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 23:43:58 - Completed job step: update_product_data (Updated products: 0)
+12-17-2023 @ 23:43:58 - Completed step cycle: update_product_data (0.15s)
+12-17-2023 @ 23:43:58 - Starting step cycle: update_inventory_tracking
+12-17-2023 @ 23:43:58 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15355s
+
+12-17-2023 @ 23:43:58 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 05:43:58 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8375175cd8e207b3-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-8e98a26b-b589-4c3a-aea2-eac10abffc1e
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=ggKgsC3ZSXdSQGPaAuvCqJmYBI..6AD4tgLR.ZJXuk0-1702878238-1-AeswIwdhOeLf9qQgmyU7YeNWdwSAITGZPxiN9MKF6HiPfwTbB9eRCETiyo9IWT3/67xHOaB+TN0U4iRHZ+ovuPY=; path=/; expires=Mon, 18-Dec-23 06:13:58 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-17-2023 @ 23:43:58 - Completed job step: update_inventory_tracking
+12-17-2023 @ 23:43:58 - Completed step cycle: update_inventory_tracking (0.16s)
+12-17-2023 @ 23:43:58 - Starting step cycle: update_inventory_counts
+12-17-2023 @ 23:43:58 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16084s
+
+12-17-2023 @ 23:43:58 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 05:43:58 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8375175dffee078c-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-5256973a-a559-4152-9a56-165223fc07a8
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=fqwmSseVJS7ljxR7iW6foVfkbq38CIYg0MNQtsTwKNk-1702878238-1-AbmYjHWmEZ871y/ozyJxpR4zXOOgQMuCwm/Nh2MHVZjUbrWP6dXv7Q/ahbGx+uAWwOY4UUvU9R8W6CRIpQ0h0Jc=; path=/; expires=Mon, 18-Dec-23 06:13:58 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-17-2023 @ 23:43:58 - Completed job step: update_inventory_counts (Synced products: 0)
+12-17-2023 @ 23:43:58 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 00:44:00 - Starting step cycle: update_category_data
+12-18-2023 @ 00:44:00 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.30113s
+
+12-18-2023 @ 00:44:00 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 06:44:00 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83756f513dea05ec-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-2608d76a-94bd-457f-8ebd-b2952a551dd4
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=Q50LR4g3zgEyBKsXTrHx6tm.h6k10yreZTDzSh3Supw-1702881840-1-AfalfKAYCADO1Zj9UF6HtbFMXEzmNiadt+2h53IygoiqsW1i/HSH/V3twLMNcbpDyZ89nCQhyWhmwHV1jm1WLB8=; path=/; expires=Mon, 18-Dec-23 07:14:00 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 00:44:00 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 00:44:00 - Completed step cycle: update_category_data (0.32s)
+12-18-2023 @ 00:44:00 - Starting step cycle: update_product_data
+12-18-2023 @ 00:44:01 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15166s
+
+12-18-2023 @ 00:44:01 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 06:44:01 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83756f524daf0816-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-5190ef7f-a790-4ffd-bb96-e5811e84f0d1
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=W.RPk9VP0PmOpA3K_sFIO_P_346MITd17HL119_DQlw-1702881841-1-AcWRtTKEyOwEBe2AIBJS/xcR47NAxepcqwipTw2y+gLqgp9BE98Uc+qRfOFV4Dpb6xdh+IPqXIVGKPLWsaH/rcU=; path=/; expires=Mon, 18-Dec-23 07:14:01 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 00:44:01 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 00:44:01 - Completed step cycle: update_product_data (0.16s)
+12-18-2023 @ 00:44:01 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 00:44:01 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.1501s
+
+12-18-2023 @ 00:44:01 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 06:44:01 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83756f535c081779-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-5b5bd901-5f7a-4c31-b4c5-f301096b661f
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=4GvDG5un3B1ntcK8JxMTv_FggeXHQ5LvjW4j0cK45PQ-1702881841-1-AUzypEZz2D6O/kFHJSYQ8xSA5nY5BE8wiqd8szwV6thjuWz8XbzGIFM0DFMPZQpfhql09inXLgoGN6/z5m4zeqM=; path=/; expires=Mon, 18-Dec-23 07:14:01 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 00:44:01 - Completed job step: update_inventory_tracking
+12-18-2023 @ 00:44:01 - Completed step cycle: update_inventory_tracking (0.15s)
+12-18-2023 @ 00:44:01 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 00:44:01 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15954s
+
+12-18-2023 @ 00:44:01 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 06:44:01 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 83756f546b857fbe-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-db02084b-f1db-4ce7-bbf9-ca95ea3df44a
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=vrCGDkVp7K3f_DZcyvg_36c7GNICtCQMXQq5YQHkGyQ-1702881841-1-AThAlZgZKcUy0cTmRJ0kkVtTBsatD1WYwGjiW2wS93vdDssNRk5y5/7mCnwGvVM1cjkPtgpLNuL++t7A0FdRudE=; path=/; expires=Mon, 18-Dec-23 07:14:01 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 00:44:01 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 00:44:01 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 01:45:50 - Starting step cycle: update_category_data
+12-18-2023 @ 01:45:50 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.18549s
+
+12-18-2023 @ 01:45:50 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 07:45:50 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8375c9e1cebe5806-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-0f53b7da-e253-4963-9f88-0fa04b86b19d
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=wn3syJTWu5X8nSkrqpZ.Kd_StDm6yEgU.qYoTnw6S8Q-1702885550-1-AQtqHJ+ERL6ns+HRC1i6FQAV0SsEl1XzOoWHcmImSaRQnTWSSHuZZEd2xdKZyuolCBDU/3TnHK39ffnEahopgSI=; path=/; expires=Mon, 18-Dec-23 08:15:50 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 01:45:50 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 01:45:50 - Completed step cycle: update_category_data (0.21s)
+12-18-2023 @ 01:45:50 - Starting step cycle: update_product_data
+12-18-2023 @ 01:45:50 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15557s
+
+12-18-2023 @ 01:45:50 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 07:45:50 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8375c9e2e8bf0610-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-88aca879-d88f-4ebb-936c-ca57ee393fea
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=XV7WaELIaWixCfKq4vUrqrTbVrSy9Bt0jbIsMFNt7s4-1702885550-1-AR2KJqmRKXOXxxy4qODFTwiAL4fJcwp5JyHoEUO5WH6v8YQiIA12KiZ/HBxgL/rski1m7Lk/NDLIYik6ZtfMBF4=; path=/; expires=Mon, 18-Dec-23 08:15:50 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 01:45:50 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 01:45:50 - Completed step cycle: update_product_data (0.16s)
+12-18-2023 @ 01:45:50 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 01:45:50 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15989s
+
+12-18-2023 @ 01:45:50 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 07:45:50 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8375c9e3ff40057f-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-a0298bd7-7efc-4e82-ab6b-20ba22451549
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=b8wSdQWK0jjhretmMXLmMt0pGgbYlD0A5azvdgFnJ9s-1702885550-1-AXpR/xRql5CrZWy49SLqq+wIsG4OY/PEQFQw6VexFLnwNk8et75hDfa87ua5ebyM/dlGmxnd+Hos4T7zWuLmKIw=; path=/; expires=Mon, 18-Dec-23 08:15:50 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 01:45:50 - Completed job step: update_inventory_tracking
+12-18-2023 @ 01:45:50 - Completed step cycle: update_inventory_tracking (0.16s)
+12-18-2023 @ 01:45:50 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 01:45:51 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15683s
+
+12-18-2023 @ 01:45:51 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 07:45:51 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8375c9e518239c58-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-15780ba4-4029-4479-add2-13f7eb051b90
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=viN3e1jCnY5cqEW24RYLcFk2rOVD_w_10u6SdlF.PaM-1702885551-1-ASwu2vVNGY8K02VzRuDTxp/27Ak/Aov7SVkKBf8BbUy4uvkF8E3VWUTSYJ1xAqWuivLR7XnjFcbqj8UUMGmG5gY=; path=/; expires=Mon, 18-Dec-23 08:15:51 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 01:45:51 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 01:45:51 - Completed step cycle: update_inventory_counts (0.16s)
+12-18-2023 @ 02:46:49 - Starting step cycle: update_category_data
+12-18-2023 @ 02:46:49 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16799s
+
+12-18-2023 @ 02:46:49 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 08:46:49 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8376233758138242-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-1fef1920-80a3-45e5-97c5-027016481c68
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=JqdgDyJgGVk_HUsIpYlvB2Kc0el65SNI3KEIoWCzwc8-1702889209-1-AezS4NjMFY7oNNf7EXOsfUljeqjs/4+IC1igZClpKfMopy6GkVBMdOLnR9swX1xfq0MWRbUhXzaPGGUbN/HQtOs=; path=/; expires=Mon, 18-Dec-23 09:16:49 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 02:46:49 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 02:46:49 - Completed step cycle: update_category_data (0.20s)
+12-18-2023 @ 02:46:49 - Starting step cycle: update_product_data
+12-18-2023 @ 02:46:49 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15424s
+
+12-18-2023 @ 02:46:49 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 08:46:49 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837623387d210594-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-e4f5f30d-fee6-4293-89d6-3ae7eb6bf6e5
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=1YiDq0NNhqckjbVN.R9Cs0506UTVapqc91RU7bWx3pU-1702889209-1-Ae3HneWG6+NOz8mLeCSN5KpKxUVRBrx3WO56MayRIjsVXkqv3n/u6xU+EX89eXijopuweQsv4kTsykV7CPxKKMA=; path=/; expires=Mon, 18-Dec-23 09:16:49 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 02:46:49 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 02:46:49 - Completed step cycle: update_product_data (0.16s)
+12-18-2023 @ 02:46:49 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 02:46:49 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.14917s
+
+12-18-2023 @ 02:46:49 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 08:46:49 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83762339899b07f1-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-8c2698b6-ca94-42b9-95cf-02031bbefaab
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=Ju7HW897AHUxTNpPtijtGCt4mz49xPh9i_FUuUxKqEI-1702889209-1-AfTRmWC9giYeOSAkyQscmNJqOLrTM3UG7ubqLzewS8oouV9SxbzIve6QWeVGTgpIoqREW8ql8lrBZiBdRs2uUyg=; path=/; expires=Mon, 18-Dec-23 09:16:49 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 02:46:49 - Completed job step: update_inventory_tracking
+12-18-2023 @ 02:46:49 - Completed step cycle: update_inventory_tracking (0.15s)
+12-18-2023 @ 02:46:49 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 02:46:50 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15392s
+
+12-18-2023 @ 02:46:50 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 08:46:50 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8376233a99cc3894-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-891636ce-02a2-4fef-b913-130240e27304
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=kxWTpGK6FXCtxnFnXQctt_2AFa.3B0T9gIFX6nx1BdQ-1702889210-1-Aackg7UHHb0VditFWy4rioi47DihcatMHrV65ivw2MpxBlSHokr71sPy44G125pOcDHK9/HwJ0uYFqQXqASIWu8=; path=/; expires=Mon, 18-Dec-23 09:16:50 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 02:46:50 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 02:46:50 - Completed step cycle: update_inventory_counts (0.16s)
+12-18-2023 @ 03:48:23 - Starting step cycle: update_category_data
+12-18-2023 @ 03:48:23 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17375s
+
+12-18-2023 @ 03:48:23 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 09:48:23 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83767d68fbdc059c-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-7ec49ab6-7926-4c81-b608-af3e1f26d759
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=kMKnTCTl6jiTsdlU.GwRAe3ZRfib_MMWCN4dqlX5.b4-1702892903-1-ARS6f1pqui63cqGEXHUR6ilQOEkWRmgUQY8T2jwMGrZdiNOxNi2KUy3zaoy7/4+MnXycQjdfttT9dwm0KuLubAg=; path=/; expires=Mon, 18-Dec-23 10:18:23 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 03:48:23 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 03:48:23 - Completed step cycle: update_category_data (0.20s)
+12-18-2023 @ 03:48:23 - Starting step cycle: update_product_data
+12-18-2023 @ 03:48:24 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16076s
+
+12-18-2023 @ 03:48:24 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 09:48:24 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83767d6a28f59c8a-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-9280272d-6397-4460-8154-aa2c3a94fb54
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=7PZZ2DgShEA6NVt.o4JmrdXs4UjIxGP.K5DDOC9IENQ-1702892904-1-AQJiLkMXSVjcgE4pPT3U4lX9C3yw4J2ar4yJsiFFuEVNwnSMsSWbkBUpG/x8HRvLwguCO7Tu4ABkbZEHE4LyfYg=; path=/; expires=Mon, 18-Dec-23 10:18:24 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 03:48:24 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 03:48:24 - Completed step cycle: update_product_data (0.16s)
+12-18-2023 @ 03:48:24 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 03:48:24 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16141s
+
+12-18-2023 @ 03:48:24 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 09:48:24 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83767d6b2d205961-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-c92da3a5-4bb7-4d6a-b1e5-962d3737309e
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=3azDaAeHVWJtijZ0CMK5I0pDEogMtQxtkSjELsuMnps-1702892904-1-AZm1LVg9oVr8ch67OGpC5IeOM5Q3KOFJ0dcSmZkwWQgo+BpCs9F3NOEASDOmut0ioOj2xb5KGcRa2rt3q9bnOSo=; path=/; expires=Mon, 18-Dec-23 10:18:24 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 03:48:24 - Completed job step: update_inventory_tracking
+12-18-2023 @ 03:48:24 - Completed step cycle: update_inventory_tracking (0.17s)
+12-18-2023 @ 03:48:24 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 03:48:24 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15008s
+
+12-18-2023 @ 03:48:24 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 09:48:24 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 83767d6c4c778227-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-13a1a8c7-ca8e-475a-b620-e0267047ade0
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=arH2NlrOvn.MudjnAj0otJcIiezNx00nI5o9Kn9kZJU-1702892904-1-AYEdPiTRWSCBnRGRTLk4PnXdfeS0dkPCFKr22K3sZzArTeberAqPSzLtoMqxV1+vQ47B9FOhXmIQtOFY32BJkCw=; path=/; expires=Mon, 18-Dec-23 10:18:24 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 03:48:24 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 03:48:24 - Completed step cycle: update_inventory_counts (0.16s)
+12-18-2023 @ 04:48:55 - Starting step cycle: update_category_data
+12-18-2023 @ 04:48:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17246s
+
+12-18-2023 @ 04:48:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 10:48:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8376d612292207a0-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-7f9cb756-5edd-4e30-8c87-f9e0962d1a53
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=Wxn21H7fG4GpUIHkyCj9kP2NaNrnrKej1EDrkAfB_y4-1702896535-1-AcsRygN556drN7c4sDDvjodkBTUZTPa2x1EZoIK05sKTkNr8DDiWvxT8Y9Xc0HS9sUdjYGluOm+96lTpjHZTafE=; path=/; expires=Mon, 18-Dec-23 11:18:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 04:48:55 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 04:48:55 - Completed step cycle: update_category_data (0.20s)
+12-18-2023 @ 04:48:55 - Starting step cycle: update_product_data
+12-18-2023 @ 04:48:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15248s
+
+12-18-2023 @ 04:48:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 10:48:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8376d613382d2036-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-d6d43438-6d41-4e0d-907b-9af63a97d470
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=M4aBxCkdE6sQHeHt0q_To3je_RT46gDBKURylde3H7o-1702896535-1-AU91FDCNGALUn5s4rxRKfAuOwUY+WvtWUWqDoXOUOarA9IMlGGazIr/5CQk8n4hVtf+4/mtc9jwpXHVujCX++60=; path=/; expires=Mon, 18-Dec-23 11:18:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 04:48:55 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 04:48:55 - Completed step cycle: update_product_data (0.16s)
+12-18-2023 @ 04:48:55 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 04:48:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.14392s
+
+12-18-2023 @ 04:48:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 10:48:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8376d6144cf381a9-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-f4925036-2175-4ebd-a4e0-abbc2875971b
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=zWw9Sjj.pEsHtSKvYHH.RqP8ITzD8rSboyMQOEZqhMQ-1702896535-1-ASd+KJSP6VD86nIwdZl3ycvqTDIv+aT9BUr+2ReITrFbzU2eGJ6q8IIVqJFQ2fVVVbP2x8Fbjlm6AzbZEviPpHU=; path=/; expires=Mon, 18-Dec-23 11:18:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 04:48:55 - Completed job step: update_inventory_tracking
+12-18-2023 @ 04:48:55 - Completed step cycle: update_inventory_tracking (0.15s)
+12-18-2023 @ 04:48:55 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 04:48:56 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15761s
+
+12-18-2023 @ 04:48:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 10:48:56 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8376d6154c572084-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-f230a08f-adcf-4279-8b46-efc5fa6c91ea
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=_howTB2wQERy7LH5MFfOWzZffYVDzv539323qGQEfHI-1702896536-1-AdkYFTy3evwjsDf68Z7P8L1qOwWtMcXOE2gJ6aZC6oVvUxUHcrFx15o7ug3buNhRjCEu+xUlQvlgMGKrLCCaWoQ=; path=/; expires=Mon, 18-Dec-23 11:18:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 04:48:56 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 04:48:56 - Completed step cycle: update_inventory_counts (0.16s)
+12-18-2023 @ 05:53:54 - Starting step cycle: update_category_data
+12-18-2023 @ 05:53:54 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.18042s
+
+12-18-2023 @ 05:53:54 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 11:53:54 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837735443c1a05a8-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-b8b1f5a5-e9e6-4fec-8454-7bcad965d110
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=9AMnjNEF9gcnFhDe4TtT76BrYfZOIuTsR6.Olu2AFuw-1702900434-1-AYoI5bINin//Pqf07PZp2MjeRPh8v46vFWsbR09EE7XTtXosDxLJRBbZhMgw8k4JeUqkE2gnDFjMjKSgT6WbWm8=; path=/; expires=Mon, 18-Dec-23 12:23:54 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 05:53:54 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 05:53:54 - Completed step cycle: update_category_data (0.21s)
+12-18-2023 @ 05:53:54 - Starting step cycle: update_product_data
+12-18-2023 @ 05:53:54 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15972s
+
+12-18-2023 @ 05:53:54 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 11:53:54 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837735455cd63898-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-6b357d2e-174b-4110-8174-54ca2aab1f31
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=CqervTY9KwWV1wDHc9Y5AgljmCRdKmpXmPYX05xQ_JM-1702900434-1-AfN7O1GLUaNWpTh0Iz0LaRdaQuLgPtvFPJXLvpqMdGfjXbJvadFJFkp+n+zs3u5NyffYI2bGPPW/OYt/VY1+RhY=; path=/; expires=Mon, 18-Dec-23 12:23:54 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 05:53:54 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 05:53:54 - Completed step cycle: update_product_data (0.16s)
+12-18-2023 @ 05:53:54 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 05:53:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15436s
+
+12-18-2023 @ 05:53:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 11:53:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837735466f9c05c4-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-fd9ba22e-188a-4af4-b942-aef1edf3f983
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=dY.uIzZxEJVgIYuJuRSibkRZvfoK4C5NLXIcBooLOvo-1702900435-1-Ae69l1EVaLcZ1OtgrygCQjtBiV2uuZ7wiB8iVXo63D97l5B6MuL8NgC6z80dRWutUbVPEzF8G8l3rpYqxzV5VdY=; path=/; expires=Mon, 18-Dec-23 12:23:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 05:53:55 - Completed job step: update_inventory_tracking
+12-18-2023 @ 05:53:55 - Completed step cycle: update_inventory_tracking (0.16s)
+12-18-2023 @ 05:53:55 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 05:53:55 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16166s
+
+12-18-2023 @ 05:53:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 11:53:55 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8377354788ff802a-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-e340b4c3-ec62-4e5f-b379-d5fc5a4bb172
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=SmR8L_6wB64Eunkc2eVvch0vmV2qXlscNKevM8xL6Ac-1702900435-1-AfujcCc77562DIUU1R5SXDjMW463JfnDHA3CDJVt0zVz2X+1YIv4I7dtWzgMRkFO0cTeMpgyJGRrCnATRPUmVbs=; path=/; expires=Mon, 18-Dec-23 12:23:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 05:53:55 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 05:53:55 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 06:53:55 - Starting step cycle: update_category_data
+12-18-2023 @ 06:53:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17084s
+
+12-18-2023 @ 06:53:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 12:53:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83778d2d8ccb057f-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-35a15d3c-6d2d-43b5-baf7-b42e73dce74a
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=6X7h.40D0f2xk7o.DSwunzR.OhEw7LKqhqAVnSBt6oI-1702904035-1-AWkbLB4aWtJ6UZfgkiAq6xf7UiXJr6qSFRuhxUhYSLf3cGwMyH0olZPeCggO+EOUlOEYTUGOfzDgsg2oJvd4LTM=; path=/; expires=Mon, 18-Dec-23 13:23:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 06:53:55 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 06:53:55 - Completed step cycle: update_category_data (0.20s)
+12-18-2023 @ 06:53:55 - Starting step cycle: update_product_data
+12-18-2023 @ 06:53:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16385s
+
+12-18-2023 @ 06:53:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 12:53:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83778d2eabcb8224-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-e028294c-4717-478f-9558-21ae6101193e
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=kg8pdahOiwHkfMb_0mXXDr0pKwT5b6I78LFWN1UCKDc-1702904035-1-Aajotzhk4hL667ez/xg+j4IxD8spdNdxcyLtE1eZZm3uOtOhH29bVgSQQn2Bs6JvPSUuWqeVktmVFIiT+42UyCU=; path=/; expires=Mon, 18-Dec-23 13:23:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 06:53:55 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 06:53:55 - Completed step cycle: update_product_data (0.17s)
+12-18-2023 @ 06:53:55 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 06:53:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16575s
+
+12-18-2023 @ 06:53:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 12:53:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83778d2fcc4d175b-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-910222ad-ea8a-44d6-84c0-a7f8cd7b97d4
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=8QV9wSfvN5FFscdHshXtkvxXGN9bMu_Xr_XmEEbc03U-1702904035-1-AaxjfAk7GilQf9yzoNt8nT/ZcnzTQwoI3ClBf7pTlBgqjWFbnVYsfOX8hspTmciocbthNOTNA2RrCrCf08w21Lc=; path=/; expires=Mon, 18-Dec-23 13:23:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 06:53:55 - Completed job step: update_inventory_tracking
+12-18-2023 @ 06:53:55 - Completed step cycle: update_inventory_tracking (0.17s)
+12-18-2023 @ 06:53:55 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 06:53:56 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15943s
+
+12-18-2023 @ 06:53:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 12:53:56 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 83778d30ff413afa-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-27eb9c1e-5137-45ae-b806-52c89d036ec1
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=KpLBzu90GmHp5uzPeP7ImYMN9wzuINCTPDRFaJW0sHM-1702904036-1-AdIG/21uzPFMFHbdvPzfyerdICuLYTzxw9foiWzbbXcAxElv5zIxs5Lq69L39ldqkDGHlFVJqiw82Gf3khBVnh4=; path=/; expires=Mon, 18-Dec-23 13:23:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 06:53:56 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 06:53:56 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 07:53:55 - Starting step cycle: update_category_data
+12-18-2023 @ 07:53:56 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.30915s
+
+12-18-2023 @ 07:53:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 13:53:56 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8377e5148eaf056d-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-74ecacc9-0833-4cd5-93a0-74e8ef13d31a
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=cDvM.gnipkSVcl7cBxsiAC_edPjWRdXiQXYr7ca7osU-1702907636-1-AXGVgoSktkNA3MZv0pLjlPegEosBhfEutoLNk0FW3NWbJlkcERoCBgFKDo1cBYt9VAh5Qo/X2IwyihlVjQcH8B4=; path=/; expires=Mon, 18-Dec-23 14:23:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 07:53:56 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 07:53:56 - Completed step cycle: update_category_data (0.34s)
+12-18-2023 @ 07:53:56 - Starting step cycle: update_product_data
+12-18-2023 @ 07:53:56 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16758s
+
+12-18-2023 @ 07:53:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 13:53:56 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8377e515bf6e20c3-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-1e2b1d5a-3b83-49e8-8854-62a80207f98a
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=qVG.l3uzUpsMf_y6MbvHBOK5MaziwbmD89KwOu12YNE-1702907636-1-AdRqryQiBIAPWF9kbTy4mAdabNf9AJ5yhkbWv8U6DkxOWH4HhMmVlH49Ux9WzHNe0uzYw5df8RhpR62mH3AsR/I=; path=/; expires=Mon, 18-Dec-23 14:23:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 07:53:56 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 07:53:56 - Completed step cycle: update_product_data (0.17s)
+12-18-2023 @ 07:53:56 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 07:53:56 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.19532s
+
+12-18-2023 @ 07:53:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 13:53:56 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8377e516dcf02040-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-8f679db9-e8e9-4b3f-bdb4-4f37506e0f40
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=U6LmcvZTVqHFtHbqFCeD.Swb5jUn4ED7AD8pw41kALs-1702907636-1-AV1zjGoKgWjCXUCUVDk24pE8san/iGyT7ClCsKsmbcZzYEs/QLJXvXwrAosFIuF4LOgJaRo2mMXR7cQaTASVCZo=; path=/; expires=Mon, 18-Dec-23 14:23:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 07:53:56 - Completed job step: update_inventory_tracking
+12-18-2023 @ 07:53:56 - Completed step cycle: update_inventory_tracking (0.20s)
+12-18-2023 @ 07:53:56 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 07:53:56 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16145s
+
+12-18-2023 @ 07:53:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 13:53:56 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8377e5182adc690e-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-30f7bdf8-0eb6-4e3d-848e-c4ea42864abc
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=BB33ckg2iII_C77pIJfCOHs5UU2YXyHIJPD.fnL9zoY-1702907636-1-AUUBFSiRgZYkP5iLaNX9iQADb11CVAdmRyZWBZvI5vKlWMrzpgLWbUcFc1zGj0nqz9Gd+Ug4CbnT/chEWeHw3/w=; path=/; expires=Mon, 18-Dec-23 14:23:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 07:53:56 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 07:53:56 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 08:57:37 - Starting step cycle: update_category_data
+12-18-2023 @ 08:57:37 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17671s
+
+12-18-2023 @ 08:57:37 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 14:57:37 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83784260e98d0578-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-2d39e2b6-02f3-4379-82ea-693832b2738c
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=QQJXt7FXEGdg_sTdMMNNEgY.0arLghNL82tyIBm0urw-1702911457-1-AcU2G2FfYKXvtP70JvePqIDG8Q0qxoExV9MJlUUvoJgycv/QgBdccnrBTcL0jjKWs9f4xDXpIQpk8XOC3Cm+AXw=; path=/; expires=Mon, 18-Dec-23 15:27:37 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 08:57:37 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 08:57:37 - Completed step cycle: update_category_data (0.21s)
+12-18-2023 @ 08:57:37 - Starting step cycle: update_product_data
+12-18-2023 @ 08:57:37 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15268s
+
+12-18-2023 @ 08:57:37 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 14:57:37 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837842620eba0812-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-81d3864b-8eef-484a-bbc6-39f9c40d3e2b
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=CGSlJOe.AF5tU8wW8ZBizBp1RcsKQHkP2bU95ed_sW4-1702911457-1-Abe2sp0se4lxfD+HVPcsLkbWTq1elO+8q5LxnGagTIqVkaoyoHCHJzQrVNAGXb4cnciAKCFJciozeLJkEYW24pY=; path=/; expires=Mon, 18-Dec-23 15:27:37 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 08:57:37 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 08:57:37 - Completed step cycle: update_product_data (0.16s)
+12-18-2023 @ 08:57:37 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 08:57:37 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16161s
+
+12-18-2023 @ 08:57:37 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 14:57:37 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837842631b7a9c46-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-3eecabb8-68ae-4e37-a0d8-178a09b22d05
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=A8npbYI91WIEkDfCjsCMZi_.KFzJJ8js3RnxqEAAWbI-1702911457-1-AflgFVGJU8Zx3ESNoAnijAP3JRxpyYT5l00yDHX9giSLHkfFwAHOKw06YWeVfFoChhftDhCT5OkLYs+Jxn5ET6k=; path=/; expires=Mon, 18-Dec-23 15:27:37 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 08:57:37 - Completed job step: update_inventory_tracking
+12-18-2023 @ 08:57:37 - Completed step cycle: update_inventory_tracking (0.17s)
+12-18-2023 @ 08:57:37 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 08:57:38 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15967s
+
+12-18-2023 @ 08:57:38 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 14:57:38 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 837842643e26825a-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-f0f0d7fb-045c-4c22-ac09-877dc4c3b063
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=Pp8bqbn_BCt_61nvLg8XaiXGAU1D1rTwJS6HQhvA1sQ-1702911458-1-AYNdYLQDHgF5jxAdCZqUnXIy9Fc0wwnRqTFmcv4GalLzKYagvK2Eyc69/y5cuSJXNISVDsHv4wbNqDQ87gI+I88=; path=/; expires=Mon, 18-Dec-23 15:27:38 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 08:57:38 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 08:57:38 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 09:58:55 - Starting step cycle: update_category_data
+12-18-2023 @ 09:58:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17791s
+
+12-18-2023 @ 09:58:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 15:58:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83789c2c7cd92413-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-d9dab7fc-aaee-4fa2-ba31-a312838f361d
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=6wCdnJuypwUJumCTuGi8z.6JZqIUc1H4wYSvl7NXIXw-1702915135-1-AWNpzmMjabNxpNW6mpJby40cTHBaN3L3U9QgykiKvWyRfyrJBShns8lma57AsrffpLQ6Ns2Hjnq1Uikqh7OwqB0=; path=/; expires=Mon, 18-Dec-23 16:28:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 09:58:55 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 09:58:55 - Completed step cycle: update_category_data (0.21s)
+12-18-2023 @ 09:58:55 - Starting step cycle: update_product_data
+12-18-2023 @ 09:58:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17456s
+
+12-18-2023 @ 09:58:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 15:58:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83789c2da8740aa9-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-21790dd9-653c-4c6b-8196-f6f52d669f0d
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=3AVmMKoMUEF.HWahZ7_4L.q8XcKr2oQmxkXKKFh38Xo-1702915135-1-AZCGlnK9MEb6dddBUV5J8l4fSUSYTrAvdbvQIL6WJgwUVJ5+/dmDIvnNCCKewVQaUpeJeYOuifbaF4XlB9+CVGo=; path=/; expires=Mon, 18-Dec-23 16:28:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 09:58:55 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 09:58:55 - Completed step cycle: update_product_data (0.18s)
+12-18-2023 @ 09:58:55 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 09:58:56 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.21368s
+
+12-18-2023 @ 09:58:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 15:58:56 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83789c2edc111786-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-f28fa61b-a175-40e8-ba26-753c036a1c3d
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=puOnrQLFZJs_xRZvv0v.XfYgxmcQtOGjOaMCsMvNnY0-1702915136-1-AehlHnuv+Qyoz9eSdLSdW1+jTfSWCjEhky7DKCXBICOTvr39Tr8F9g2+eLm4Eatw+vX5R5qUXH4rh+oxan/FWUc=; path=/; expires=Mon, 18-Dec-23 16:28:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 09:58:56 - Completed job step: update_inventory_tracking
+12-18-2023 @ 09:58:56 - Completed step cycle: update_inventory_tracking (0.22s)
+12-18-2023 @ 09:58:56 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 09:58:56 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16448s
+
+12-18-2023 @ 09:58:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 15:58:56 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 83789c30493757d2-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-a5a7acd2-9030-431c-9bbb-215aae038390
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=uQbWaCcMNk3p4hghrn8fHiGTAL8gHhwcYPl5.i1TqW0-1702915136-1-AZhg3IknxAjPjZkatU4N5GcdIQqDP4AfDTOBvLVVuMZDZ6oBZLNl9Ceh1qGbCFktU2aZb6o30BV8KEOi1vaBTxw=; path=/; expires=Mon, 18-Dec-23 16:28:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 09:58:56 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 09:58:56 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 11:00:00 - Starting step cycle: update_category_data
+12-18-2023 @ 11:00:00 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.19368s
+
+12-18-2023 @ 11:00:00 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 17:00:00 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8378f5a70eb405fa-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-d5b6879b-7a9d-4131-a46f-aa31e3d40f9a
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=KPpYwJkani6U8soPR4L2CD4n9o6byIoxqORicRuAeQk-1702918800-1-AemD+jJ/YwYjI6Hscd64mBMa4hfS4EF6tfSyvATWzM52jKa4hm/48ItvAbKZfrQeQQf0DJViRRxH0kYDqZcKS+I=; path=/; expires=Mon, 18-Dec-23 17:30:00 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 11:00:00 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 11:00:00 - Completed step cycle: update_category_data (0.22s)
+12-18-2023 @ 11:00:00 - Starting step cycle: update_product_data
+12-18-2023 @ 11:00:00 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17211s
+
+12-18-2023 @ 11:00:00 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 17:00:00 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8378f5a83991391f-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-e54d43b1-8fd6-420d-bf81-9e36d003fe49
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=asOEJvtTAZmT07C00s9qG6gaAcCvExAKa48sBE0DywM-1702918800-1-AQGzfeISRz9VurkXjMg+UKtooWavhBWNuP6attmJlwFM82Zef/a/ML7Ta2sADO9xdioEfW8tF6HsYDLBijsZdkk=; path=/; expires=Mon, 18-Dec-23 17:30:00 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 11:00:00 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 11:00:00 - Completed step cycle: update_product_data (0.18s)
+12-18-2023 @ 11:00:00 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 11:00:01 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16969s
+
+12-18-2023 @ 11:00:01 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 17:00:01 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8378f5a9791c20d5-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-03eec1af-3099-417c-86d5-a5b0d26d65a0
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=M2QrufjsPLAxPDF.kyfap_40JQ0ONq7kwO757Gu5qsY-1702918801-1-ATcVO74FCOOs2oRuFVB0hLxp1hEUH42iKZgDiJsw87bcxFWVp6g1Eh3Qy5MAHAQTy8FJoM1bK6uEIxwqfgDaTb8=; path=/; expires=Mon, 18-Dec-23 17:30:01 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 11:00:01 - Completed job step: update_inventory_tracking
+12-18-2023 @ 11:00:01 - Completed step cycle: update_inventory_tracking (0.17s)
+12-18-2023 @ 11:00:01 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 11:00:01 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16353s
+
+12-18-2023 @ 11:00:01 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 17:00:01 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8378f5aabbdb5770-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-aebdd9ac-fbdd-49a4-968f-f68cfe758fba
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=dNx0L3EYPFjKSR8uHxcz00xKZ8CneNdNBYXlu.aPjEA-1702918801-1-AXxucQtAqigmcV81sHwlogcczh9nsxrvKHxl7Mm+OmwJp+yiPPxwsDc8+hpUOAL6etnavJ6QGpkjXj3p1WN+ybw=; path=/; expires=Mon, 18-Dec-23 17:30:01 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 11:00:01 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 11:00:01 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 12:01:41 - Starting step cycle: update_category_data
+12-18-2023 @ 12:01:41 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.18586s
+
+12-18-2023 @ 12:01:41 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 18:01:41 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837950026dd381ca-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-ec60ea3f-238a-4b08-a5e1-8754bac472e1
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=uX86uXrTttB3B7boG7HtTN0ItysAexnyib0ejkJK5Uc-1702922501-1-AW2sD7bIKnWjOzPpEhEoNgOH+Cufkqh5U6HvtgSoWQ9tCR41piS5tiWydU9waqUQwTMhLrpdQ3TpH0gFfrtbUI0=; path=/; expires=Mon, 18-Dec-23 18:31:41 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 12:01:41 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 12:01:41 - Completed step cycle: update_category_data (0.21s)
+12-18-2023 @ 12:01:41 - Starting step cycle: update_product_data
+12-18-2023 @ 12:01:41 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16434s
+
+12-18-2023 @ 12:01:41 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 18:01:41 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837950038fbf3880-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-6639c226-a31b-473e-a010-72b045e13a5e
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=krBK_UaZJXNFsQlM6y7MJzfnJZ_agJp7nqStORVFhrU-1702922501-1-AfQmxMu8s2JPgBNT0hUv82Wdfz6VNwOl4hPqbwWgS2R7d/lLTTsBL+mDyxiAeebqmEm6JadG4xLZZZBueyfskgU=; path=/; expires=Mon, 18-Dec-23 18:31:41 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 12:01:41 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 12:01:41 - Completed step cycle: update_product_data (0.17s)
+12-18-2023 @ 12:01:41 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 12:01:42 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16788s
+
+12-18-2023 @ 12:01:42 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 18:01:42 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 83795004b8858248-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-3eeca109-d84a-4bdd-bf01-20cd796c7da6
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=j2uwUeDvlnrmrYhMr3v9hWc1k7KwtFA42JYLG0lTQBg-1702922502-1-AbTElTT3qlBgWcmqpvy9UEHkGQtLYPlbyvNY7MiEuF2zNMmtucFrC2qzsVBDIlTKyjID6dCEqmVT1ua5qta1By0=; path=/; expires=Mon, 18-Dec-23 18:31:42 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 12:01:42 - Completed job step: update_inventory_tracking
+12-18-2023 @ 12:01:42 - Completed step cycle: update_inventory_tracking (0.17s)
+12-18-2023 @ 12:01:42 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 12:01:42 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15345s
+
+12-18-2023 @ 12:01:42 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 18:01:42 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 83795005efea0aaf-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-e9fcf6d4-33ef-4dda-85e8-6d7eefb11a79
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=CA.9Obqi6d8SB4wwxtiBBYmce64bt3isZhSLBqBJDXc-1702922502-1-Aeu8tmSsaE2TksaXN9YnF43idW85aYxVlAoW8SdkhD2inptTsQMhW1T2YRsBYFzN/zhaZP09hzb/+d2hsW9fJsY=; path=/; expires=Mon, 18-Dec-23 18:31:42 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 12:01:42 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 12:01:42 - Completed step cycle: update_inventory_counts (0.16s)
+12-18-2023 @ 13:02:07 - Starting step cycle: update_category_data
+12-18-2023 @ 13:02:07 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.19501s
+
+12-18-2023 @ 13:02:07 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 19:02:07 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8379a887b88c07e4-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-249b29fc-93fe-4867-93b0-37585db024c4
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=4ifGolP6xTFq5JI3PuQ5nllBsCqDCyONCF5zt.MA7pU-1702926127-1-AZS9q5mGr870ug/C3eusJSIVUwG0UqIMURw5VS5kBfNGtQZPe3e8VsaHXQl1DlU+zLQDiDtCG5Gbx7t1e0LR1Xc=; path=/; expires=Mon, 18-Dec-23 19:32:07 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 13:02:07 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 13:02:07 - Completed step cycle: update_category_data (0.22s)
+12-18-2023 @ 13:02:07 - Starting step cycle: update_product_data
+12-18-2023 @ 13:02:07 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16196s
+
+12-18-2023 @ 13:02:07 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 19:02:07 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8379a888fed21fd6-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-91392e57-a30f-4b61-98a0-2d04d3bdc633
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=rahW7WMg4skri8w7meSoE6YRX1CBrfooxuToZyM1CAQ-1702926127-1-AZvDpj5YL5hq+WhwtGbuAIkrYVIdwZVGxPQApRI1hF5kLDdnH2JrzuqoS0MQtKb/mvhQhnD6z3alY3vw1D0BMo0=; path=/; expires=Mon, 18-Dec-23 19:32:07 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 13:02:07 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 13:02:07 - Completed step cycle: update_product_data (0.17s)
+12-18-2023 @ 13:02:07 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 13:02:07 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15789s
+
+12-18-2023 @ 13:02:07 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 19:02:07 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 8379a88a0da805ea-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-6f690d05-fa4f-48fd-8241-e622b3092bc8
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=PvuwJ28f.aKG5w2spwdogoSpsOnW46GWrtwwf6VZUzk-1702926127-1-AXHfX4lA//A4kUybsjV2+ldjOoQ/en2nDje2ErSG9r3WETZSe0rE5wOKi6llOpYx5uFoStZY+3L6Ic/67wOMT4o=; path=/; expires=Mon, 18-Dec-23 19:32:07 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 13:02:07 - Completed job step: update_inventory_tracking
+12-18-2023 @ 13:02:07 - Completed step cycle: update_inventory_tracking (0.16s)
+12-18-2023 @ 13:02:07 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 13:02:08 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15948s
+
+12-18-2023 @ 13:02:08 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 19:02:08 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 8379a88b2f51398c-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-d7f08e42-b1fa-4223-8289-073c1ef6af0e
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=uIjDb5Q7IRX3FpiMHZ5ldtb9pOdWpQ9ap0Agbm9BaDA-1702926128-1-Ac1Rn/woQtvnL9M0Cvl846eEtvVD4uGH1y4/ObjHpIwGLFJb66lsylG1uk+yip6OmeGo+NGfLKxbfxH9krnbIuk=; path=/; expires=Mon, 18-Dec-23 19:32:08 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 13:02:08 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 13:02:08 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 14:03:55 - Starting step cycle: update_category_data
+12-18-2023 @ 14:03:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16725s
+
+12-18-2023 @ 14:03:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 20:03:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837a030ffb8a3b78-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-b98fc49e-406a-4c7d-acec-82d058f0a4e1
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=.7X7BXhhUtdgZo3oWLIfS8PjfFortbDHlX.NKDGK5gg-1702929835-1-ASlrpFqJRWl6P9hRjXN/AX7tE4LbuD1WtBoW3eTrKrOl5HS5hp9aKZW2p/+Xd/OoP+2s1WxUZvcAWVJShaa8x0Y=; path=/; expires=Mon, 18-Dec-23 20:33:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 14:03:55 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 14:03:55 - Completed step cycle: update_category_data (0.17s)
+12-18-2023 @ 14:03:55 - Starting step cycle: update_product_data
+12-18-2023 @ 14:03:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15788s
+
+12-18-2023 @ 14:03:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 20:03:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837a03110d4d0774-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-7274c4ed-c8e2-403c-9221-6f764937b02f
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=08ZJ6m_dUN7tu97AtNCf5m7eOJ8W3q7StjSP5uT_zqU-1702929835-1-ARjE3C2EkoskVzMSLmbtp9h36XLmVGpgchxfoj49rl3pFenXHMWYRjJuol0PtSRLESjCgyfaEyOJenmUeoukU58=; path=/; expires=Mon, 18-Dec-23 20:33:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 14:03:55 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 14:03:55 - Completed step cycle: update_product_data (0.16s)
+12-18-2023 @ 14:03:55 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 14:03:56 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15474s
+
+12-18-2023 @ 14:03:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 20:03:56 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837a031228a307f9-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-e2bf345c-93b5-42c5-863b-61ea21b52a67
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=CAHRbyPkozuWzgCFHJmgnrP0DJiwvZQq5AE.8uPTzlo-1702929836-1-AWtfk8s5PP9u4WjNgRYfHUwcwVSIibGQBic5c3T5BH7hJdVNHGUSgMwqOc11e27urUYc73l2S1XRc05CE9vqZuI=; path=/; expires=Mon, 18-Dec-23 20:33:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 14:03:56 - Completed job step: update_inventory_tracking
+12-18-2023 @ 14:03:56 - Completed step cycle: update_inventory_tracking (0.16s)
+12-18-2023 @ 14:03:56 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 14:03:56 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15908s
+
+12-18-2023 @ 14:03:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 20:03:56 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 837a031339cd05c3-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-fb7055b8-9cc0-4191-a0b6-ffa91d126f0b
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=ywuatrBLrMVcAcYlGIzdHK1r7eFU1mkfGH31pynSHD0-1702929836-1-ARM1IlKfOtKvdOLQWQrP4n+jrUqOJ5x9U+QEaucYs5dlj8+q2CGbwSycPF46Dd2n8Qp6EOcjy6OIF8JeQGKD2hQ=; path=/; expires=Mon, 18-Dec-23 20:33:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 14:03:56 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 14:03:56 - Completed step cycle: update_inventory_counts (0.16s)
+12-18-2023 @ 15:03:55 - Starting step cycle: update_category_data
+12-18-2023 @ 15:03:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.19445s
+
+12-18-2023 @ 15:03:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 21:03:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837a5af4d8b072e9-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-45c4f1d6-6150-47f6-bea5-ba50f0fb3f60
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=i3LfDDKuyeh2Z.whdtXYMEEFmCO2rNO3C9rOfP3JcGY-1702933435-1-AcaSSShUhnFkNCfTdOx8kg9+Ki9jIgPECrYq5V2q23R4KQcYvWznCbEahKylrW5xSr9f9cSUt0SP6uguLm7XFsw=; path=/; expires=Mon, 18-Dec-23 21:33:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 15:03:55 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 15:03:55 - Completed step cycle: update_category_data (0.23s)
+12-18-2023 @ 15:03:55 - Starting step cycle: update_product_data
+12-18-2023 @ 15:03:55 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16436s
+
+12-18-2023 @ 15:03:55 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 21:03:55 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837a5af5ffcf28a4-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-5d4523e1-36dd-47ea-8e6d-1730999d3f40
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=EfxnTRPXEUA_yVX_DeKMPp8gyUX8U2NJ6VXRHX1C4TM-1702933435-1-AdGNPXawIJO9fCx1SFWvp5XsVvn+5FIPWBmHHOyNkXHi33rTKhWe3Qz+PgrAO8CruJOYaRKZ38LOpHk1izjms40=; path=/; expires=Mon, 18-Dec-23 21:33:55 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 15:03:55 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 15:03:55 - Completed step cycle: update_product_data (0.17s)
+12-18-2023 @ 15:03:56 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 15:03:56 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16591s
+
+12-18-2023 @ 15:03:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 21:03:56 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837a5af7189882d4-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-79374759-a5a0-4340-8cfe-f95ebe03b99c
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=rKT5QXSJKbik2TluKofsCAzywRhncn1asB1PyvoUseQ-1702933436-1-AfwxHb5S+6ALrm3DWA3cKdCAL1xKsEGPxk6H2M346H19ulFiHdr04qjomhC/GIU9eOnGnNyQC11n4b7aITqmQWk=; path=/; expires=Mon, 18-Dec-23 21:33:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 15:03:56 - Completed job step: update_inventory_tracking
+12-18-2023 @ 15:03:56 - Completed step cycle: update_inventory_tracking (0.17s)
+12-18-2023 @ 15:03:56 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 15:03:56 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16605s
+
+12-18-2023 @ 15:03:56 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 21:03:56 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 837a5af84ec805e1-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-e3025a90-67e6-40d4-9dd8-c8f9cbaf0d2d
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=ZE06perUAgKHioZuuxie4zfY_C2VFIRkYRjqjfhMFN4-1702933436-1-AQyUCg5fKhlGlin6dGEnu/o5NEXJ/yZCahEZ68DYZ8JDV0hnOavSIZCkg87Mj8PSu0emLm8/mBp9DZvevpypp2Y=; path=/; expires=Mon, 18-Dec-23 21:33:56 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 15:03:56 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 15:03:56 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 16:03:58 - Starting step cycle: update_category_data
+12-18-2023 @ 16:03:59 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17783s
+
+12-18-2023 @ 16:03:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 22:03:59 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837ab2ed89c49c3d-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-b4747702-3cff-43d5-8c47-78bccd007f88
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=BWh117y.XAjRBntYF.tTRpgX8U5Bo4HI8B.UQOTTN9E-1702937039-1-AV/Iia7txLtFsBzWW5gLFn3IlH/HVJUzX441+pzNjaA7UbQzFOoBH+BSGrCxOTItx76VrzplkgwjttD0gauQb0s=; path=/; expires=Mon, 18-Dec-23 22:33:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 16:03:59 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 16:03:59 - Completed step cycle: update_category_data (0.21s)
+12-18-2023 @ 16:03:59 - Starting step cycle: update_product_data
+12-18-2023 @ 16:03:59 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.15514s
+
+12-18-2023 @ 16:03:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 22:03:59 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837ab2eeaafd39a0-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-3e22d11e-e9cc-4c55-b8b1-79eb9bae1a52
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=R0ISt0TQs4CO6b.JyEBUMIOpN4PZK.H5GwPxjmNmyw8-1702937039-1-AYsSrwTkvEO95iBDThx3nBVOG/CvWtanyifQHk8uQzMo5NmDzBBGVQe6tZNnit9/tR3fhmdsg+tMJbxXmKWCJUA=; path=/; expires=Mon, 18-Dec-23 22:33:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 16:03:59 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 16:03:59 - Completed step cycle: update_product_data (0.16s)
+12-18-2023 @ 16:03:59 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 16:03:59 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16979s
+
+12-18-2023 @ 16:03:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 22:03:59 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837ab2efbd1c0850-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-79c8068e-47ba-4090-b123-2c2a57f29d5a
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=WL2UoA45vjQ4P1dNyg57uijcH4jt6uyvOVN2Kw.biAM-1702937039-1-AZCuNngy8s2acjJKbUcX4S2ZsXKWItRq3f0UuxLLqpoUgGuuVoczdNDOpHIW9lSuxKezeh5BmaUY/0kXlsms7mI=; path=/; expires=Mon, 18-Dec-23 22:33:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 16:03:59 - Completed job step: update_inventory_tracking
+12-18-2023 @ 16:03:59 - Completed step cycle: update_inventory_tracking (0.17s)
+12-18-2023 @ 16:03:59 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 16:03:59 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16144s
+
+12-18-2023 @ 16:03:59 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 22:03:59 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 837ab2f0ea658245-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-ef55af0a-5395-43e1-95bf-7aa8492dad7d
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=vgsvAJvC9U8RJVjs6wosRWSkofba1lWSGUSIqeYxLc0-1702937039-1-Abyq1AcE433gTuPaku22i8OJamaCZ6JAs5FAkdwnsjxoWnoHo1ZYXfO9VcJUw+idhijoIj18/6lmf5xJMQpgRqY=; path=/; expires=Mon, 18-Dec-23 22:33:59 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 16:03:59 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 16:03:59 - Completed step cycle: update_inventory_counts (0.17s)
+12-18-2023 @ 17:08:39 - Starting step cycle: update_category_data
+12-18-2023 @ 17:08:39 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.17484s
+
+12-18-2023 @ 17:08:39 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 23:08:39 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837b11ab39840579-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-5d1399da-e4ea-4cfb-99a6-086e1ff98314
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=HwXP3pA_T91kcEV2F7K8DntY3YHjNMFwj8t01LPn4a4-1702940919-1-AV6irxXO7iM+jyEM580NVsRZ9SDzWw8tgzLihFo4p8u6IFk8YdqIYoRQ5pU49WHQwlPKI9EdfanjfX2rjqjFpRU=; path=/; expires=Mon, 18-Dec-23 23:38:39 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 17:08:39 - Completed job step: update_category_data (Updated categories: 0)
+12-18-2023 @ 17:08:39 - Completed step cycle: update_category_data (0.20s)
+12-18-2023 @ 17:08:39 - Starting step cycle: update_product_data
+12-18-2023 @ 17:08:39 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16707s
+
+12-18-2023 @ 17:08:39 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 23:08:39 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837b11ac5a113aff-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-0756da5c-460e-4ef4-ac0e-4877613cb737
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=yIBjuJ5iahUy1cQ9cHrrL37a.wcEtYPugrYCV_xeQ8c-1702940919-1-ATFkOxyRMoj2BbyXaUx0L/SUZWqY94MnljsEg30XNIKnY7xBscyg8ob66S7cbANuR7HLyS8AmDqp9413JCOTVko=; path=/; expires=Mon, 18-Dec-23 23:38:39 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 17:08:39 - Completed job step: update_product_data (Updated products: 0)
+12-18-2023 @ 17:08:39 - Completed step cycle: update_product_data (0.17s)
+12-18-2023 @ 17:08:39 - Starting step cycle: update_inventory_tracking
+12-18-2023 @ 17:08:40 - Request
+ Request
+method:
+uri: searchCatalogObjects
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16466s
+
+12-18-2023 @ 17:08:40 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 23:08:40 GMT
+    [content-type] => application/json
+    [content-length] => 65
+    [cf-ray] => 837b11ad79ed1316-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/catalog/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-8f8fce1e-9a0f-4149-b9de-50e080259341
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=saIx2XwWlw3_WsVyzQR3rk0R6DOuVCKWP.K6fG35F4o-1702940920-1-AVAhMahebcgiP44kqeBX2mdHPYkmu3mE7qIMMbDY/jaT0rGC79k5lKB10UixwWEHcgGHa+e5sCt0r8EJJbS+XKk=; path=/; expires=Mon, 18-Dec-23 23:38:40 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {
+    "latest_time": "2023-11-20T19:48:43.46Z"
+}
+
+12-18-2023 @ 17:08:40 - Completed job step: update_inventory_tracking
+12-18-2023 @ 17:08:40 - Completed step cycle: update_inventory_tracking (0.17s)
+12-18-2023 @ 17:08:40 - Starting step cycle: update_inventory_counts
+12-18-2023 @ 17:08:40 - Request
+ Request
+method:
+uri: batchRetrieveInventoryCounts
+user-agent: WooCommerce-Square/4.4.0 (WooCommerce/8.3.1; WordPress/6.4.2)
+headers: Array
+(
+)
+body:
+duration: 0.16441s
+
+12-18-2023 @ 17:08:40 - Response
+ Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [date] => Mon, 18 Dec 2023 23:08:40 GMT
+    [content-type] => application/json
+    [content-length] => 26
+    [cf-ray] => 837b11aeae4782ff-IAD
+    [cf-cache-status] => DYNAMIC
+    [content-encoding] => gzip
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+    [vary] => Origin, Accept-Encoding
+    [square-version] => 2023-07-20
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-envoy-decorator-operation] => /v2/inventory/**
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-speleo-traceid] => CDN-8b792746-80ac-422e-b6cd-bbb41b6f9371
+    [x-sq-dc] => aws
+    [x-sq-region] => us-west-2
+    [x-xss-protection] => 1; mode=block
+    [set-cookie] => __cf_bm=kFyrjMnVG4Xy09JQjRKmmt0g7glSb_lUvW9sruro3Es-1702940920-1-AcgLx7JNLF0ECAW8ekI/IQE81hxSoeeJzNVUw2RZW+Io/7fYn9XM5h3X+VPmTZzzUwPlmCQNQ4dXEOCqeVt8YxA=; path=/; expires=Mon, 18-Dec-23 23:38:40 GMT; domain=.connect.squareup.com; HttpOnly; Secure; SameSite=None
+    [server] => cloudflare
+)
+body: {}
+
+12-18-2023 @ 17:08:40 - Completed job step: update_inventory_counts (Synced products: 0)
+12-18-2023 @ 17:08:40 - Completed step cycle: update_inventory_counts (0.17s)

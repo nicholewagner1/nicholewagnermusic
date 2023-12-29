@@ -1,0 +1,223 @@
+/**
+ * Jetpack (plugin)
+ * @link https://jetpack.com/
+ * -----------------------------------------------------------------------------
+ */
+
+
+/**
+ * Comments
+ * -----------------------------------------------------------------------------
+ */
+
+.comment-form-wrapper #commentform {
+	margin: 1.33333333em;
+}
+
+/* Override inline negative margins added on WP.com when replying to a comment. */
+.highlander-comment {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+@media (min-width: 768px) {
+	.comment-form-wrapper #commentform {
+		margin: 2.66666667em;
+	}
+}
+
+
+/* Infinite Scroll
+------------------------------------------------------------------------------*/
+
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+	display: none;
+}
+
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+#infinite-handle {
+	margin-bottom: 1.33333333em;
+	text-align: center;
+}
+
+#infinite-handle span {
+	background-color: #333;
+	border: 0;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	color: #e0e0e0;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Cousine", serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	line-height: 1.61538462;
+	margin-bottom: 0.53846154em;
+	padding: 0.46153846em 1.53846154em 0.38461538em;
+	text-align: center;
+	text-decoration: none;
+}
+
+#infinite-handle span:hover,
+#infinite-handle span:focus {
+	background-color: #555;
+	color: #fff;
+	text-decoration: none;
+}
+
+#infinite-handle span {
+	margin: 0;
+}
+
+.has-cuebar #infinite-footer,
+.has-playbar #infinite-footer {
+	bottom: 50px !important;
+}
+
+.infinite-loader {
+	display: block;
+	margin-bottom: 1.33333333em;
+}
+
+.infinite-loader .spinner {
+	margin: auto;
+	left: 0 !important;
+}
+
+
+/**
+ * Sharing
+ * -----------------------------------------------------------------------------
+ */
+
+.sharedaddy {
+	margin-bottom: 1.7em;
+}
+
+
+/**
+ * Widgets (includes WP.com widgets)
+ * -----------------------------------------------------------------------------
+ */
+
+/* Gravatar Profiles */
+.widget-grofile a {
+	text-decoration: underline;
+}
+
+.widget-grofile ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.widget-grofile .grofile-accounts li:before {
+	display: none;
+}
+
+.widget-grofile .grofile-links li {
+	display: inline-block;
+}
+
+.widget-grofile .grofile-links li + li:before {
+	content: "\00B7";
+	display: inline-block;
+	margin: 0;
+}
+
+/* Author Grid */
+.widget_author_grid li {
+	display: inline-block;
+	margin: 0;
+}
+
+.widget_author_grid ul {
+	margin: 0;
+	padding: 0;
+}
+
+body .gcard {
+	z-index: 80;
+}
+
+/* Authors */
+.widget_authors a {
+	display: block;
+	margin-bottom: 0.66666667em;
+}
+
+.widget_authors ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.widget_authors ul ul {
+	margin-bottom: 1.7em;
+}
+
+.widget_authors ul ul a {
+	display: inline;
+	margin-bottom: 0;
+}
+
+.widget_authors .avatar {
+	display: block;
+	margin: 0 0 0.66666667em;
+}
+
+/* Blog Stats */
+.widget_blog-stats {
+	list-style: none;
+}
+
+/* Facebook Likebox */
+.widget_facebook_likebox iframe {
+	margin-bottom: 0;
+}
+
+/* Goodreads */
+.gr_custom_widget h2,
+.gr_custom_widget > div > div {
+	margin-bottom: 1.7em;
+}
+
+/* My Community */
+.widget_jetpack_my_community .avatar {
+	border-radius: 100%;
+	display: block;
+}
+
+.widget_jetpack_my_community .widgets-multi-column-grid ul li {
+	display: inline-block;
+	float: none;
+	padding: 0 0.66666667em 1.33333333em;
+}
+
+/* Posts I Like */
+.widget_jetpack_posts_i_like .widget-grid-view-image {
+	display: inline-block;
+	float: none;
+	max-width: 33%;
+}
+
+.widget_jetpack_posts_i_like .widget-grid-view-image a {
+	margin: 0 0.66666667em 1.33333333em;
+	opacity: 1;
+}
+
+.widget_jetpack_posts_i_like .widget-grid-view-image a:hover,
+.widget_jetpack_posts_i_like .widget-grid-view-image a:focus {
+	opacity: 0.6;
+}
+
+/* Subscription */
+.widget_blog_subscription h3 label {
+	color: inherit;
+}

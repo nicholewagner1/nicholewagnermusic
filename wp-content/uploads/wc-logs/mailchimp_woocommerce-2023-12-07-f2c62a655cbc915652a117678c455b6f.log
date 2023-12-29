@@ -1,0 +1,12 @@
+2023-12-07T03:04:33+00:00 ERROR webhook deletion error :: Too Many RequestsYou have exceeded the limit of 10 simultaneous connections.
+2023-12-07T03:04:33+00:00 ERROR webhook :: Too Many RequestsYou have exceeded the limit of 10 simultaneous connections.
+2023-12-07T03:04:33+00:00 NOTICE webhooks :: added webhook to audience
+2023-12-07T03:04:33+00:00 ERROR webhook :: <p>url: Sorry, you can't set up multiple WebHooks for one URL</p>
+2023-12-07T03:04:34+00:00 NOTICE webhooks :: added webhook to audience
+2023-12-07T03:04:34+00:00 NOTICE webhooks :: added webhook to audience
+2023-12-07T03:04:35+00:00 ERROR webhook :: <p>url: We couldn't verify the URL is working. Please double check and try again. HTTP Code: 403</p>
+2023-12-07T03:04:36+00:00 ERROR webhook :: <p>url: Sorry, you can't set up multiple WebHooks for one URL</p>
+2023-12-07T03:04:36+00:00 ERROR webhook :: <p>url: Sorry, you can't set up multiple WebHooks for one URL</p>
+2023-12-07T03:04:36+00:00 ERROR webhook :: <p>url: Sorry, you can't set up multiple WebHooks for one URL</p>
+2023-12-07T03:04:36+00:00 ERROR webhook :: <p>url: Sorry, you can't set up multiple WebHooks for one URL</p>
+2023-12-07T03:04:36+00:00 NOTICE webhooks :: added webhook to audience

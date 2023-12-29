@@ -1,0 +1,194 @@
+/*
+ Theme Name:   Nichole Wagner Wayfarer Child
+ Template:     wayfarer
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ */
+@import url("../wayfarer/style.css");
+
+.site-content-inside {padding:0px }
+.content-area {padding: 20px;}
+.page-title {display: none;
+	
+}
+
+.social-navigation {font-size:2rem !important;}
+
+.social-navigation a[href*="tiktok.com"]:before {
+    content: "\e07b" !important;
+    font-weight: 900;
+    font-family: FontAwesome !important;
+}
+.social-navigation a[href*="patreon.com"]:before {
+	content: "\f3d9";
+    font-weight: 900;
+    font-family: FontAwesome !important;
+    }
+    
+
+.home .hero {display:none;}
+.headlinehome{    color: white;
+    text-align: center;
+    font-size: 148%;}
+
+.elementor-page-33924 .site-identity {top:50px !important;}
+.entry-title {display: none;}
+.hero-title {font-family: "Oswald", sans-serif;
+    font-size: 42px;
+    font-size: 4.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+.site-description {display: none !important;}
+h4.author {display:none;}
+/* h1 .title {display:none;} */
+h1, h2, h3 {letter-spacing: 0px;}
+.meta-info {display: none}
+.entry .meta-info {display: none !important;}
+
+  .footercopyright {  text-align: center;
+    font-size: 12px;
+    color: gray;
+	  background: rgba(0, 0, 0, 0.04); 
+	  padding:20px;
+	  font-family: "Oswald", sans-serif;
+	  text-transform:uppercase;
+}
+
+.header-filter::before {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    }
+    .page-header.header-small {
+    min-height: 445px;}
+    .header-filter {background-position: 0px 0 !important;}
+.boxed-layout-header {
+    padding-bottom: 40px !important;
+}
+#footer {background: rgba(0, 0, 0, 0.04);}
+.elementor-element-7f3279f .tickets {order:4}
+.single-audiotheme_gig .hero-title {display:none;}
+.single-audiotheme_gig .audiotheme-gig-title {display:block;}
+#audiotheme-gig {padding:30px;}
+.venue-postal-code {display: none;}
+.venue-region {display: none;}
+
+.single-audiotheme_gig .adr {display: block;}
+.venue-address { display: inline;}
+.venue-street-address {display: inline;}
+.venue-address .sep {display:none;}
+.venue-locality {display: none;}
+.country-name-united-states {display: none;}
+	.gig-details .gig-date time {
+display: block;
+font-size: 20px;
+font-size: 2.2rem;
+line-height: 1.33333333;
+}
+.gig-details-container {width:80%; float:left; margin:0 auto;}
+.gig-details {
+	float:left;
+	width: 50%;
+    text-align: center;
+}
+.gig-description {padding-left:53%}
+.gig-details .venue-address {display:none !important;}
+.gig-details:first-of-type {
+	border-right:1px solid dimgray;
+}
+.elementor-widget-wp-widget-audiotheme-upcoming-gigs .location {width:15%;}
+
+@media only screen and (max-width: 767px) {
+	.gig-details {
+	float:none;
+	padding:10px;
+		width:auto;
+	
+}
+.gig-details:first-of-type {
+border-bottom:1px dashed gray;
+	border-right:none;
+    margin: 20px;	
+}
+}
+.section {
+    padding: 70px 0 70px;
+}
+
+
+h1, h2, h3 {font-family:Oswald; text-transform:uppercase;}
+
+
+.in-stock {display:none;}
+
+.menu-item-cart .dashicons-cart {    margin-top: -7px; }
+.footer-big h5 a {color:white}
+
+.audiotheme-record-single.min-width-600 {
+    position: relative;
+    padding: 30px 0 0 330px !important;
+}
+.audiotheme-track-single .audiotheme-record-artist
+{display:none !important;}
+.record-genre {display:none;}
+.record-year, .record-links, button {font-family: "Oswald", sans-serif;}
+.record-artist {display:none;}
+.trackname { float: left;
+    margin: 8px 0 10px !important;
+    font-size: 18px !important; }
+.trackalbum {    float: left;
+    font-size: 18px;}
+
+
+
+
+/*mobile styles */
+@media only screen and (min-width: 768px) {
+	.gig-card .gig-description {
+    padding-left: 53% !important;
+    width: 78%;
+    }
+}
+@media only screen and (max-width: 767px) {
+	
+	#main-header {
+    background-position-y: 0;
+}
+/*
+    
+	li.menu-social {    
+    width: auto !important;
+    float: left !important;
+    padding-top: 10px !important;
+  }
+*/
+
+}
+/*large screen styles*/
+@media only screen and (min-width: 1024px) {
+    .header-filter {background-position: 0px -165px !important;}
+		.boxed-layout-header {
+    padding-bottom: 200px !important;
+}
+ .site-navigation-panel {
+    padding-left: calc(50vw - 600px);
+    padding-right: calc(50vw - 600px);
+}
+/*
+  	li.menu-social {    
+ 
+    padding-top: 10px !important;
+  }
+*/
+}
+
+@media only screen and (min-width: 400px) {
+	.hero-inside {display: block;}
+}
+
+.hide {
+	display: none !important;
+	}

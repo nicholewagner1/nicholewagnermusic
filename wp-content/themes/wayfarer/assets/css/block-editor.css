@@ -1,0 +1,372 @@
+/*!
+ * Theme Name: Wayfarer
+ * Description: Used to style the block editor.
+ */
+
+
+/**
+ * Editor: Base
+ * -----------------------------------------------------------------------------
+ */
+
+:root {
+	font-size: 62.5%;
+}
+
+.editor-styles-wrapper {
+	color: #333;
+	font-family: "Arimo", sans-serif;
+	font-size: 18px;
+	line-height: 1.66666667;
+
+
+/* Typography
+------------------------------------------------------------------------------*/
+
+}
+
+.editor-styles-wrapper body {
+	color: #333;
+	font-size: 18px;
+	line-height: 1.66666667;
+}
+
+.editor-styles-wrapper body,
+.editor-styles-wrapper button,
+.editor-styles-wrapper input,
+.editor-styles-wrapper select,
+.editor-styles-wrapper textarea {
+	font-family: "Arimo", sans-serif;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+	margin: 0;
+}
+
+.editor-styles-wrapper b,
+.editor-styles-wrapper strong {
+	font-weight: 700;
+}
+
+.editor-styles-wrapper dfn,
+.editor-styles-wrapper cite,
+.editor-styles-wrapper em,
+.editor-styles-wrapper i {
+	font-style: italic;
+}
+
+.editor-styles-wrapper blockquote {
+	border: solid #e6e6e6;
+	border-width: 1px 1px 1px 10px;
+	font-size: 14px;
+	font-size: 1.4rem;
+	margin: 0 0 2.14285714em;
+	padding: 1.07142857em 1.42857143em;
+}
+
+.editor-styles-wrapper blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+.editor-styles-wrapper blockquote cite,
+.editor-styles-wrapper blockquote small {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+.editor-styles-wrapper blockquote cite {
+	display: block;
+	margin-top: 0.55555556em;
+}
+
+.editor-styles-wrapper address {
+	font-style: italic;
+	margin: 0 0 1.66666667em;
+}
+
+.editor-styles-wrapper code,
+.editor-styles-wrapper kbd,
+.editor-styles-wrapper tt,
+.editor-styles-wrapper var,
+.editor-styles-wrapper samp,
+.editor-styles-wrapper pre {
+	background-color: rgba(0, 0, 0, 0.06);
+	font-family: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+	font-size: 94%;
+	-webkit-hyphens: none;
+	hyphens: none;
+	padding: 0.11111111em 0.33333333em;
+
+	-ms-hyphens: none;
+}
+
+.editor-styles-wrapper pre {
+	background-color: #f5f5f5;
+	border: solid #333;
+	border-width: 0 0 0 8px;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	margin-bottom: 2.14285714em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.07142857em 1.42857143em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.editor-styles-wrapper pre code {
+	background-color: transparent;
+	font-size: 100%;
+	padding: 0;
+}
+
+.editor-styles-wrapper abbr[title] {
+	border-bottom: 1px dotted #e6e6e6;
+	cursor: help;
+}
+
+.editor-styles-wrapper mark,
+.editor-styles-wrapper ins {
+	background-color: #fff9c0;
+	text-decoration: none;
+}
+
+.editor-styles-wrapper sup,
+.editor-styles-wrapper sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+.editor-styles-wrapper sup {
+	bottom: 1ex;
+}
+
+.editor-styles-wrapper sub {
+	top: 0.5ex;
+}
+
+.editor-styles-wrapper small {
+	font-size: 75%;
+}
+
+.editor-styles-wrapper big {
+	font-size: 125%;
+}
+
+
+/**
+ * Editor: Blocks
+ * -----------------------------------------------------------------------------
+ */
+
+
+/* General Block Styles
+------------------------------------------------------------------------------*/
+
+.wp-block {
+	margin-bottom: 1.66666667em;
+	max-width: 720px;
+}
+
+.wp-block[data-align="wide"] {
+	max-width: 1100px;
+}
+
+.wp-block[data-align="full"] {
+	max-width: none;
+}
+
+.wp-block .wp-block.alignfull,
+.wp-block .wp-block[data-align="full"] {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media (min-width: 0) {
+	.block-editor-block-list__layout .block-editor-block-list__block.alignfull,
+	.block-editor-block-list__layout .block-editor-block-list__block[data-align="full"] {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+
+/* Button Block
+------------------------------------------------------------------------------*/
+
+.wp-block-button.alignright,
+.wp-block-button.alignleft {
+	display: block;
+	float: none;
+}
+
+.wp-block-button .wp-block-button__link,
+.wp-block-button .wp-block-file__button {
+	background-color: #fff;
+	border: 1px solid #111;
+	border-radius: 3px;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Arimo", sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	margin-bottom: 0;
+	margin-right: 0.35714286em;
+	opacity: 1;
+	padding: 0.64285714em 1.14285714em;
+	text-align: center;
+	text-decoration: none;
+	transition: background 0.1s, border 0.1s, color 0.1s;
+	transition-timing-function: ease-in-out;
+}
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link {
+	background-color: #fff;
+	background-color: #111;
+	border: 1px solid #111;
+	border-color: #111;
+	border-radius: 3px;
+	border-width: 0;
+	color: #333;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Arimo", sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	margin-bottom: 0;
+	margin-right: 0.35714286em;
+	opacity: 1;
+	padding: 0.64285714em 1.14285714em;
+	text-align: center;
+	text-decoration: none;
+	transition: background 0.1s, border 0.1s, color 0.1s;
+	transition-timing-function: ease-in-out;
+}
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:hover,
+.wp-block-button:not(.is-style-outline) .wp-block-button__link:focus {
+	background-color: #333;
+	border-color: #333;
+	color: #fff;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	border-width: 1px;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover,
+.wp-block-button.is-style-outline .wp-block-button__link:focus {
+	background-color: #333;
+	border-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* Pullquote Block
+------------------------------------------------------------------------------*/
+
+.wp-block-pullquote {
+	border-color: #000;
+}
+
+.wp-block-pullquote blockquote {
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.wp-block-pullquote blockquote:after {
+	display: none;
+}
+
+.wp-block-pullquote p {
+	margin-bottom: 0.5em;
+}
+
+.wp-block-pullquote blockquote cite,
+.wp-block-pullquote.is-style-solid-color blockquote cite {
+	color: #787878;
+	font-family: "Arimo", sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	letter-spacing: 0.1em;
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+
+/* Quote Block
+------------------------------------------------------------------------------*/
+
+.wp-block-quote {
+	border-left-color: #e6e6e6;
+	border-left-width: 10px;
+}
+
+.wp-block-quote p,
+.wp-block-quote.is-style-large p {
+	font-style: inherit !important;
+}
+
+.wp-block-quote p:last-of-type,
+.wp-block-quote.is-style-large p:last-of-type {
+	margin-bottom: 0;
+}
+
+.wp-block-quote cite,
+.wp-block-quote.is-style-large cite,
+.wp-block-quote footer,
+.wp-block-quote.is-style-large footer,
+.wp-block-quote .wp-block-quote__citation,
+.wp-block-quote.is-style-large .wp-block-quote__citation {
+	color: #787878;
+	font-family: "Arimo", sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+.wp-block-quote.is-style-large {
+	padding: 0;
+}
+
+.wp-block-quote.has-text-align-right {
+	border-color: #e6e6e6;
+	border-left: 1px solid;
+	border-right: 10px solid;
+}
+
+.wp-block-quote.has-text-align-right:after {
+	right: 0.625em;
+	left: auto;
+}
+
+.wp-block-quote,
+.wp-block-quote.has-text-align-right {
+	padding: 1.55555556em 2.29166667em;
+}
+
+
+/* Separator Block
+------------------------------------------------------------------------------*/
+
+.wp-block-separator {
+	margin-bottom: 1.66666667em;
+	margin-top: 1.66666667em;
+}
